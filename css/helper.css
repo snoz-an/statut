@@ -1,0 +1,449 @@
+@media screen and (min-width: 768px){
+
+    .w-md-auto{
+      width: auto !important;}
+  
+    .mt-md-20{
+      margin-top: 1.25rem !important;}
+    .mb-md-20{
+      margin-bottom: 1.25rem !important;}
+    .mr-md-20{
+      margin-right: 1.25rem !important;}
+    .ml-md-20{
+      margin-left: 1.25rem !important;}
+  
+    .mt-md-30{
+      margin-top: 1.875rem !important;}
+    .mb-md-30{
+      margin-bottom: 1.875rem !important;}
+    .mr-md-30{
+      margin-right: 1.875rem !important;}
+    .ml-md-30{
+      margin-left: 1.875rem !important;}
+  
+  
+    .pt-md-20{
+      padding-top: 1.25rem !important;}
+    .pb-md-20{
+      padding-bottom: 1.25rem !important;}
+    .pr-md-20{
+      padding-right: 1.25rem !important;}
+    .pl-md-20{
+      padding-left: 1.25rem !important;}
+  
+    .mt-md-32{
+      margin-top: 2rem !important;}
+    .mb-md-32{
+      margin-bottom: 2rem !important;}
+    .mr-md-32{
+      margin-right: 2rem !important;}
+    .ml-md-32{
+      margin-left: 2rem !important;}
+
+      .mt-md-12{
+        margin-top: 0.75rem !important;}
+      .mb-md-12{
+        margin-bottom: 0.75rem !important;}
+      .mr-md-12{
+        margin-right: 0.75rem !important;}
+      .ml-md-12{
+        margin-left: 0.75rem !important;}
+  
+    .pt-md-32{
+      padding-top: 2rem !important;}
+    .pb-md-32{
+      padding-bottom: 2rem !important;}
+    .pr-md-32{
+      padding-right: 2rem !important;}
+    .pl-md-32{
+      padding-left: 2rem !important;}
+  
+    .p-md-32{
+      padding: 2rem !important;}
+  
+    .mt-md-40{
+      margin-top: 2.5rem !important;}
+    .mb-md-40{
+      margin-bottom: 2.5rem !important;}
+    .mr-md-40{
+      margin-right: 2.5rem !important;}
+    .ml-md-40{
+      margin-left: 2.5rem !important;}
+  
+    .p-md-40{
+      padding: 2.5rem !important;}
+  
+    .mt-md-64{
+      margin-top: 4rem !important;
+    }
+    .mb-md-64{
+      margin-bottom: 4rem !important;
+    }
+    .ml-md-64{
+      margin-left: 4rem !important;
+    }
+    .mr-md-64{
+      margin-right: 4rem !important;
+    }
+  }
+  
+  .slick-slide{
+      height: auto!important;
+  }
+  
+  /*####################*/  
+  /*Шрифты*/
+  html body .fs-10 {
+    font-size: 0.625rem;
+    line-height: 0.675rem; }
+    html body .fs-10 h1, html body .fs-10 h2, html body .fs-10 h3, html body .fs-10 h4, html body .fs-10 h5, html body .fs-10 div, html body .fs-10 span, html body .fs-10 p, html body .fs-10 button, html body .fs-10 input, html body .fs-10 a {
+      font-size: 0.625rem;
+      line-height: 0.675rem; }
+  html body .fs-12 {
+    font-size: 0.75rem;
+    line-height: 0.875rem; }
+    html body .fs-12 h1, html body .fs-12 h2, html body .fs-12 h3, html body .fs-12 h4, html body .fs-12 h5, html body .fs-12 div, html body .fs-12 span, html body .fs-12 p, html body .fs-12 button, html body .fs-12 input, html body .fs-12 a {
+      font-size: 0.75rem;
+      line-height: 0.875rem; }
+      html body .fs-13 {
+        font-size: 0.812rem;
+        line-height: 0.933rem; }
+        html body .fs-13 h1, html body .fs-13 h2, html body .fs-13 h3, html body .fs-13 h4, html body .fs-13 h5, html body .fs-13 div, html body .fs-13 span, html body .fs-13 p, html body .fs-13 button, html body .fs-13 input, html body .fs-13 a, html body .fs-13 li {
+          font-size: 0.812rem;
+          line-height: 0.933rem; }
+  html body .fs-14 {
+    font-size: 0.875rem;
+    line-height: 1.0625rem; }
+    html body .fs-14 h1, html body .fs-14 h2, html body .fs-14 h3, html body .fs-14 h4, html body .fs-14 h5, html body .fs-14 div, html body .fs-14 span, html body .fs-14 p, html body .fs-14 button, html body .fs-14 input, html body .fs-14 a, html body .fs-14 li {
+      font-size: 0.875rem;
+      line-height: 1.0625rem; }
+  html body .fs-16 {
+    font-size: 1rem;
+    line-height: 24px; }
+    html body .fs-16 h1, html body .fs-16 h2, html body .fs-16 h3, html body .fs-16 h4, html body .fs-16 h5, html body .fs-16 div, html body .fs-16 span, html body .fs-16 p, html body .fs-16 button, html body .fs-16 input, html body .fs-16 a {
+      font-size: 1rem;
+      line-height: 24px; }
+  html body .fs-18 {
+    font-size: 1.125rem;
+    line-height: 1.375rem; }
+    html body .fs-18 h1, html body .fs-18 h2, html body .fs-18 h3, html body .fs-18 h4, html body .fs-18 h5, html body .fs-18 div, html body .fs-18 span, html body .fs-18 p, html body .fs-18 button, html body .fs-18 input, html body .fs-18 a {
+      font-size: 1.125rem;
+      line-height: 1.375rem; }
+  html body .fs-20 {
+    font-size: 1.25rem;
+    line-height: 1.5rem; }
+    html body .fs-20 h1, html body .fs-20 h2, html body .fs-20 h3, html body .fs-20 h4, html body .fs-20 h5, html body .fs-20 div, html body .fs-20 span, html body .fs-20 p, html body .fs-20 button, html body .fs-20 input, html body .fs-20 a {
+      font-size: 1.25rem;
+      line-height: 1.5rem; }
+
+      html body .fs-22 {
+        font-size: 1.375rem;
+        line-height: 1.7rem; }
+        html body .fs-22 h1, html body .fs-22 h2, html body .fs-22 h3, html body .fs-22 h4, html body .fs-22 h5, html body .fs-22 div, html body .fs-22 span, html body .fs-22 p, html body .fs-22 button, html body .fs-22 input, html body .fs-22 a {
+          font-size: 1.375rem;
+          line-height: 1.7rem; }
+
+
+  html body .fs-24 {
+    font-size: 1.5rem;
+    line-height: 1.8375rem; }
+    html body .fs-24 h1, html body .fs-24 h2, html body .fs-24 h3, html body .fs-24 h4, html body .fs-24 h5, html body .fs-24 div, html body .fs-24 span, html body .fs-24 p, html body .fs-24 button, html body .fs-24 input, html body .fs-24 a {
+      font-size: 1.5rem;
+      line-height: 1.8375rem; }
+  html body .fs-26 {
+    font-size: 1.625rem;
+    line-height: 2rem; }
+    html body .fs-26 h1, html body .fs-26 h2, html body .fs-26 h3, html body .fs-26 h4, html body .fs-26 h5, html body .fs-26 div, html body .fs-26 span, html body .fs-26 p, html body .fs-26 button, html body .fs-26 input, html body .fs-26 a {
+      font-size: 1.625rem;
+      line-height: 2rem; }
+    html body .fs-28 {
+        font-size: 1.625rem;
+        line-height: 2rem; }
+      html body .fs-28 h1, html body .fs-28 h2, html body .fs-28 h3, html body .fs-28 h4, html body .fs-28 h5, html body .fs-28 div, html body .fs-28 span, html body .fs-28 p, html body .fs-28 button, html body .fs-28 input, html body .fs-28 a {
+          font-size: 1.625rem;
+          line-height: 2rem; }
+  html body .fs-30 {
+    font-size: 1.875rem;
+    line-height: 2.3125rem; }
+    html body .fs-30 h1, html body .fs-30 h2, html body .fs-30 h3, html body .fs-30 h4, html body .fs-30 h5, html body .fs-30 div, html body .fs-30 span, html body .fs-30 p, html body .fs-30 button, html body .fs-30 input, html body .fs-30 a {
+      font-size: 1.875rem;
+      line-height: 2.3125rem; }
+  html body .fs-32 {
+    font-size: 2rem;
+    line-height: 2.4375rem; }
+    html body .fs-32 h1, html body .fs-32 h2, html body .fs-32 h3, html body .fs-32 h4, html body .fs-32 h5, html body .fs-32 div, html body .fs-32 span, html body .fs-32 p, html body .fs-32 button, html body .fs-32 input, html body .fs-32 a {
+      font-size: 2rem;
+      line-height: 2.4375rem; }
+  html body .fs-40 {
+    font-size: 2.5rem;
+    line-height: 3.0625rem; }
+    html body .fs-40 h1, html body .fs-40 h2, html body .fs-40 h3, html body .fs-40 h4, html body .fs-40 h5, html body .fs-40 div, html body .fs-40 span, html body .fs-40 p, html body .fs-40 button, html body .fs-40 input, html body .fs-40 a {
+      font-size: 2.5rem;
+      line-height: 3.0625rem; }
+  html body .fs-48 {
+    font-size: 3rem;
+    line-height: 3.625rem; }
+    html body .fs-48 h1, html body .fs-48 h2, html body .fs-48 h3, html body .fs-48 h4, html body .fs-48 h5, html body .fs-48 div, html body .fs-48 span, html body .fs-48 p, html body .fs-48 button, html body .fs-48 input, html body .fs-48 a {
+      font-size: 3rem;
+      line-height: 3.625rem; }
+  html body .fs-56 {
+    font-size: 3.5rem;
+    line-height: 4.2875rem; }
+    html body .fs-56 h1, html body .fs-56 h2, html body .fs-56 h3, html body .fs-56 h4, html body .fs-56 h5, html body .fs-56 div, html body .fs-56 span, html body .fs-56 p, html body .fs-56 button, html body .fs-56 input, html body .fs-56 a {
+      font-size: 3.5rem;
+      line-height: 4.2875rem; }
+  /*html body .fs-48 {
+    font-size: 3rem;
+    line-height: 3.0625rem; }
+    html body .fs-48 h1, html body .fs-48 h2, html body .fs-48 h3, html body .fs-48 h4, html body .fs-48 h5, html body .fs-48 div, html body .fs-48 span, html body .fs-48 p, html body .fs-48 button, html body .fs-48 input, html body .fs-48 a {
+      font-size: 3rem;
+      line-height: 3.0625rem; }*/
+  /*html body .fs-54 {
+    font-size: 3.375rem;
+    line-height: 4.080625rem; }
+    html body .fs-54 h1, html body .fs-54 h2, html body .fs-54 h3, html body .fs-54 h4, html body .fs-54 h5, html body .fs-54 div, html body .fs-54 span, html body .fs-54 p, html body .fs-54 button, html body .fs-54 input, html body .fs-54 a {
+      font-size: 3.375rem;
+      line-height: 4.080625rem; }*/
+  
+  html body .m-child-0 h1, html body .m-child-0 h2, html body .m-child-0 h3, html body .m-child-0 h4, html body .m-child-0 h5, html body .m-child-0 div, html body .m-child-0 span, html body .m-child-0 p, html body .m-child-0 button, html body .m-child-0 input, html body .m-child-0 a {
+    margin: 0 !important; }
+  
+  html body .fw-100 {
+    font-weight: 100 !important; }
+    html body .fw-100 h1, html body .fw-100 h2, html body .fw-100 h3, html body .fw-100 h4, html body .fw-100 h5, html body .fw-100 div, html body .fw-100 span, html body .fw-100 p, html body .fw-100 button, html body .fw-100 input, html body .fw-100 a {
+      font-weight: 100 !important; }
+  html body .fw-200 {
+    font-weight: 200 !important; }
+    html body .fw-200 h1, html body .fw-200 h2, html body .fw-200 h3, html body .fw-200 h4, html body .fw-200 h5, html body .fw-200 div, html body .fw-200 span, html body .fw-200 p, html body .fw-200 button, html body .fw-200 input, html body .fw-200 a {
+      font-weight: 200 !important; }
+  html body .fw-300 {
+    font-weight: 300 !important; }
+    html body .fw-300 h1, html body .fw-300 h2, html body .fw-300 h3, html body .fw-300 h4, html body .fw-300 h5, html body .fw-300 div, html body .fw-300 span, html body .fw-300 p, html body .fw-300 button, html body .fw-300 input, html body .fw-300 a {
+      font-weight: 300 !important; }
+  html body .fw-400 {
+    font-weight: 400 !important; }
+    html body .fw-400 h1, html body .fw-400 h2, html body .fw-400 h3, html body .fw-400 h4, html body .fw-400 h5, html body .fw-400 div, html body .fw-400 span, html body .fw-400 p, html body .fw-400 button, html body .fw-400 input, html body .fw-400 a {
+      font-weight: 400 !important; }
+
+  html body .fw-500 {
+    font-weight: 500 !important; }
+    html body .fw-500 h1, html body .fw-500 h2, html body .fw-500 h3, html body .fw-500 h4, html body .fw-500 h5, html body .fw-500 div, html body .fw-500 span, html body .fw-500 p, html body .fw-500 button, html body .fw-500 input, html body .fw-500 a {
+      font-weight: 500 !important; }
+  html body .fw-600 {
+    font-weight: 600 !important; }
+    html body .fw-600 h1, html body .fw-600 h2, html body .fw-600 h3, html body .fw-600 h4, html body .fw-600 h5, html body .fw-600 div, html body .fw-600 span, html body .fw-600 p, html body .fw-600 button, html body .fw-600 input, html body .fw-600 a {
+      font-weight: 600 !important; }
+  html body .fw-700 {
+    font-weight: 700 !important; }
+    html body .fw-700 h1, html body .fw-700 h2, html body .fw-700 h3, html body .fw-700 h4, html body .fw-700 h5, html body .fw-700 div, html body .fw-700 span, html body .fw-700 p, html body .fw-700 button, html body .fw-700 input, html body .fw-700 a {
+      font-weight: 700 !important; }
+  html body .fw-800 {
+    font-weight: 800 !important; }
+    html body .fw-800 h1, html body .fw-800 h2, html body .fw-800 h3, html body .fw-800 h4, html body .fw-800 h5, html body .fw-800 div, html body .fw-800 span, html body .fw-800 p, html body .fw-800 button, html body .fw-800 input, html body .fw-800 a {
+      font-weight: 800 !important; }
+  html body .fw-900 {
+    font-weight: 900 !important; }
+    html body .fw-900 h1, html body .fw-900 h2, html body .fw-900 h3, html body .fw-900 h4, html body .fw-900 h5, html body .fw-900 div, html body .fw-900 span, html body .fw-900 p, html body .fw-900 button, html body .fw-900 input, html body .fw-900 a {
+      font-weight: 900 !important; }
+  
+  
+  @media screen and (min-width: 768px){
+    html body .fs-md-12 {
+      font-size: 0.75rem !important;
+      line-height: 0.875rem !important; }
+      html body .fs-md-12 h1, html body .fs-md-12 h2, html body .fs-md-12 h3, html body .fs-md-12 h4, html body .fs-md-12 h5, html body .fs-md-12 div, html body .fs-md-12 span, html body .fs-md-12 p, html body .fs-md-12 button, html body .fs-md-12 input, html body .fs-md-12 a {
+        font-size: 0.75rem !important;
+        line-height: 0.875rem !important; }
+    html body .fs-md-14 {
+      font-size: 0.875rem !important;
+      line-height: 1.0625rem !important; }
+      html body .fs-md-14 h1, html body .fs-md-14 h2, html body .fs-md-14 h3, html body .fs-md-14 h4, html body .fs-md-14 h5, html body .fs-md-14 div, html body .fs-md-14 span, html body .fs-md-14 p, html body .fs-md-14 button, html body .fs-md-14 input, html body .fs-md-14 a, html body .fs-md-14 li {
+        font-size: 0.875rem !important;
+        line-height: 1.0625rem !important; }
+    html body .fs-md-16 {
+      font-size: 1rem !important;
+      line-height: 24px !important; }
+      html body .fs-md-16 h1, html body .fs-md-16 h2, html body .fs-md-16 h3, html body .fs-md-16 h4, html body .fs-md-16 h5, html body .fs-md-16 div, html body .fs-md-16 span, html body .fs-md-16 p, html body .fs-md-16 button, html body .fs-md-16 input, html body .fs-md-16 a {
+        font-size: 1rem !important;
+        line-height: 24px !important; }
+    html body .fs-md-18 {
+      font-size: 1.125rem !important;
+      line-height: 1.375rem !important; }
+      html body .fs-md-18 h1, html body .fs-md-18 h2, html body .fs-md-18 h3, html body .fs-md-18 h4, html body .fs-md-18 h5, html body .fs-md-18 div, html body .fs-md-18 span, html body .fs-md-18 p, html body .fs-md-18 button, html body .fs-md-18 input, html body .fs-md-18 a {
+        font-size: 1.125rem !important;
+        line-height: 1.375rem !important; }
+    /*html body .fs-20 {
+      font-size: 1.25rem;
+      line-height: 1.5rem; }
+      html body .fs-20 h1, html body .fs-20 h2, html body .fs-20 h3, html body .fs-20 h4, html body .fs-20 h5, html body .fs-20 div, html body .fs-20 span, html body .fs-20 p, html body .fs-20 button, html body .fs-20 input, html body .fs-20 a {
+        font-size: 1.25rem;
+        line-height: 1.5rem; }*/
+        html body .fs-md-20 {
+          font-size: 1.25rem !important;
+          line-height: 1.437rem !important; }
+          html body .fs-md-20 h1, html body .fs-md-20 h2, html body .fs-md-20 h3, html body .fs-md-20 h4, html body .fs-md-20 h5, html body .fs-md-20 div, html body .fs-md-20 span, html body .fs-md-20 p, html body .fs-md-20 button, html body .fs-md-20 input, html body .fs-md-20 a {
+            font-size: 1.25rem !important;
+            line-height: 1.437rem !important; }
+
+    html body .fs-md-24 {
+      font-size: 1.5rem !important;
+      line-height: 1.8375rem !important; }
+      html body .fs-md-24 h1, html body .fs-md-24 h2, html body .fs-md-24 h3, html body .fs-md-24 h4, html body .fs-md-24 h5, html body .fs-md-24 div, html body .fs-md-24 span, html body .fs-md-24 p, html body .fs-md-24 button, html body .fs-md-24 input, html body .fs-md-24 a {
+        font-size: 1.5rem !important;
+        line-height: 1.8375rem !important; }
+    html body .fs-md-26 {
+      font-size: 1.625rem !important;
+      line-height: 2rem !important; }
+      html body .fs-md-26 h1, html body .fs-md-26 h2, html body .fs-md-26 h3, html body .fs-md-26 h4, html body .fs-md-26 h5, html body .fs-md-26 div, html body .fs-md-26 span, html body .fs-md-26 p, html body .fs-md-26 button, html body .fs-md-26 input, html body .fs-md-26 a {
+        font-size: 1.625rem !important;
+        line-height: 2rem !important; }
+    html body .fs-md-30 {
+      font-size: 1.875rem;
+      line-height: 2.3125rem; }
+      html body .fs-md-30 h1, html body .fs-md-30 h2, html body .fs-md-30 h3, html body .fs-md-30 h4, html body .fs-md-30 h5, html body .fs-md-30 div, html body .fs-md-30 span, html body .fs-md-30 p, html body .fs-md-30 button, html body .fs-md-30 input, html body .fs-md-30 a {
+        font-size: 1.875rem;
+        line-height: 2.3125rem; }
+        html body .fs-md-28 {
+          font-size: 1.75rem;
+          line-height: 2.01rem; }
+          html body .fs-md-28 h1, html body .fs-md-28 h2, html body .fs-md-28 h3, html body .fs-md-28 h4, html body .fs-md-28 h5, html body .fs-md-28 div, html body .fs-md-28 span, html body .fs-md-28 p, html body .fs-md-28 button, html body .fs-md-28 input, html body .fs-md-28 a {
+            font-size: 1.875rem;
+            line-height: 2.3125rem; }
+    html body .fs-md-32 {
+      font-size: 2rem!important;
+      line-height: 2.4375rem!important; }
+      html body .fs-md-32 h1, html body .fs-md-32 h2, html body .fs-md-32 h3, html body .fs-md-32 h4, html body .fs-md-32 h5, html body .fs-md-32 div, html body .fs-md-32 span, html body .fs-md-32 p, html body .fs-md-32 button, html body .fs-md-32 input, html body .fs-md-32 a {
+        font-size: 2rem !important;
+        line-height: 2.4375rem !important; }
+    html body .fs-md-40 {
+      font-size: 2.5rem !important;
+      line-height: 3.0625rem !important; }
+      html body .fs-md-40 h1, html body .fs-md-40 h2, html body .fs-md-40 h3, html body .fs-md-40 h4, html body .fs-md-40 h5, html body .fs-md-40 div, html body .fs-md-40 span, html body .fs-md-40 p, html body .fs-md-40 button, html body .fs-md-40 input, html body .fs-md-40 a {
+        font-size: 2.5rem !important;
+        line-height: 3.0625rem !important; }
+    html body .fs-md-48 {
+      font-size: 3rem !important;
+      line-height: 3.625rem !important; }
+      html body .fs-md-48 h1, html body .fs-md-48 h2, html body .fs-md-48 h3, html body .fs-md-48 h4, html body .fs-md-48 h5, html body .fs-md-48 div, html body .fs-md-48 span, html body .fs-md-48 p, html body .fs-md-48 button, html body .fs-md-48 input, html body .fs-md-48 a {
+        font-size: 3rem !important;
+        line-height: 3.625rem !important; }
+    html body .fs-md-56 {
+      font-size: 3.5rem !important;
+      line-height: 4.2875rem !important; }
+      html body .fs-md-56 h1, html body .fs-md-56 h2, html body .fs-md-56 h3, html body .fs-md-56 h4, html body .fs-md-56 h5, html body .fs-md-56 div, html body .fs-md-56 span, html body .fs-md-56 p, html body .fs-md-56 button, html body .fs-md-56 input, html body .fs-md-56 a {
+        font-size: 3.5rem !important;
+        line-height: 4.2875rem !important; }
+  }
+  /*####################*/  
+  /*Отступы*/
+  
+    .pt-64{
+      padding-top: 4rem;}
+    .pb-64{
+      padding-bottom: 4rem;}
+  
+    .pl-64{
+      padding-left: 4rem;}
+    .pr-64{
+      padding-right: 4rem;}
+  
+    .pt-96{
+      padding-top: 6rem;}
+    .pb-96{
+      padding-bottom: 6rem;}
+  
+  
+    .mt-12{
+      margin-top: 0.75rem;}
+    .mb-12{
+      margin-bottom: 0.75rem;}
+    .mr-12{
+      margin-right: 0.75rem;}
+    .ml-12{
+      margin-left: 0.75rem;}
+  
+    .pt-12{
+      padding-top: 0.75rem;}
+    .pb-12{
+      padding-bottom: 0.75rem;}
+    .pr-12{
+      padding-right: 0.75rem;}
+    .pl-12{
+      padding-left: 0.75rem;}
+  
+    .mt-20{
+      margin-top: 1.25rem;}
+    .mb-20{
+      margin-bottom: 1.25rem;}
+    .mr-20{
+      margin-right: 1.25rem;}
+    .ml-20{
+      margin-left: 1.25rem;}
+  
+    .pt-20{
+      padding-top: 1.25rem;}
+    .pb-20{
+      padding-bottom: 1.25rem;}
+    .pr-20{
+      padding-right: 1.25rem;}
+    .pl-20{
+      padding-left: 1.25rem;}
+  
+    .mt-30{
+      margin-top: 1.875rem;}
+    .mb-30{
+      margin-bottom: 1.875rem;}
+    .mr-30{
+      margin-right: 1.875rem;}
+    .ml-30{
+      margin-left: 1.875rem;}
+  
+    .mt-32{
+      margin-top: 2rem;}
+    .mb-32{
+      margin-bottom: 2rem;}
+    .mr-32{
+      margin-right: 2rem;}
+    .ml-32{
+      margin-left: 2rem;}
+  
+    .pt-32{
+      padding-top: 2rem;}
+    .pb-32{
+      padding-bottom: 2rem;}
+    .pr-32{
+      padding-right: 2rem;}
+    .pl-32{
+      padding-left: 2rem;}
+    .p-32{
+      padding: 2rem;}
+  
+    .mt-40{
+      margin-top: 2.5rem;}
+    .mb-40{
+      margin-bottom: 2.5rem;}
+    .mr-40{
+      margin-right: 2.5rem;}
+    .ml-40{
+      margin-left: 2.5rem;}
+  
+    .pt-40{
+      padding-top: 2.5rem;}
+    .pb-40{
+      padding-bottom: 2.5rem;}
+    .pr-40{
+      padding-right: 2.5rem;}
+    .pl-40{
+      padding-left: 2.5rem;}
+  
+    .p-40{
+      padding: 2.5rem;}
+  
+  
+  .image__zoom{
+    overflow: hidden;}
+    .image__zoom img{
+      transition: 0.5s;}
+      .image__zoom:hover img{
+        transform: scale(1.075);}
+  
