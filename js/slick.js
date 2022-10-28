@@ -1,4 +1,39 @@
 $(document).ready(function(){
+
+
+    
+    $('#slider-partners').slick({
+        infinite: true,
+        dots: false,
+        slidesToShow: 6,
+  
+        slidesToScroll: 1,
+        // dotsClass: 'slick-dots slick-dots-partners',
+        arrow: false,
+        // centerMode: true,
+        prevArrow: $('.slider-partners-prev'),
+        nextArrow: $('.slider-partners-next'),
+        responsive: [
+          
+            {
+              breakpoint: 1000,
+              settings: {
+                slidesToShow: 4,
+                
+              }
+            },
+            
+            {
+              breakpoint: 573,
+              settings: {
+                slidesToShow: 3,
+              }
+            }
+        ]
+      });
+
+
+
     //Используй для slick js лучше id
 
     var $st = $('.pagination');
@@ -73,7 +108,6 @@ $slickEl.on('init reInit afterChange', function (event, slick, currentSlide, nex
             });
             if (percentTime >= 100) {
                 $('#slider-main').slick('slickNext');
-                console.log('привет')
                 progressBarIndex++;
                 if (progressBarIndex > 2) {
                     progressBarIndex = 0;
