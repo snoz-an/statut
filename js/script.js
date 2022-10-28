@@ -3,11 +3,13 @@
 //    } );
 $( document ).ready(function() {
 
+    
 
-    $('.main_feedback_submit').click(function(){
-        
+
+    $('.format_btn').click(function(){
+        $('.format_btn').removeClass('format_btn_active')
+        $(this).toggleClass('format_btn_active');     
     })
-
 
     
 

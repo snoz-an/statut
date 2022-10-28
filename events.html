@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="./images/logo.svg" type="image/x-icon">
+
+     <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Slick CSS -->
+  <link rel="stylesheet" type="text/css" href="./js/slick-1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="./js/slick-1.8.1/slick/slick-theme.css" /> 
+  <!-- Main CSS -->
+   <link rel="stylesheet" href="./css/main.css">
+   <link rel="stylesheet" href="./css/helper.css">
+   <link rel="stylesheet" href="./fonts/Inter/stylesheet.css">
+   
+   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+   <script src="https://api-maps.yandex.ru/2.1/?apikey=db32f154-f5b8-442a-bb04-5f55f07bbae7&lang=ru_RU"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.2.6/swiper-bundle.min.js" integrity="sha512-CGsqPVUZUUVx5RS41AFdu5Ghj3cKcpHxg7ae66br18nqK5dTPJ2k6srKYVHMMIvaq96QIoOE8JrqXrlWuppfEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.2.5/swiper-bundle.min.js"></script>
+
+   <script src="./js/script.js"></script>
+    <script src="./js/logo.js"></script>
+
+    <!-- SLICK JS -->
+    <script src="./js/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="./js/slick.js"></script>
+
+   <script src="./js/script.js"></script>
+   <script src="./js/quiz.js"></script>
+   <script src="./js/logo.js"></script>
+   
+   <title>Фреш - сервис-онлайн подбора плана питания</title>
+
+<!-- Yandex.Metrika counter -->
+<!-- /Yandex.Metrika counter -->
+
+</head>
+
+<div class="header_container">
+    <div class="fixed">
+        <div class="container" style="position: relative;">
+            <header>
+                <div class="first_panel">
+                    <ul class="header_socials d-flex">
+                        <li><a href="#"><img src="./images/vk.svg" alt=""></a></li>
+                        <li><a href="#"><img src="./images/youtube.svg" alt=""></a></li>
+                        <li><a href="#"><img src="./images/telegram.svg" alt=""></a></li>
+                        <li class="color_grey_BO"><a href="#" class="fs-md-14">Сведения об образовательной организации</a></li>
+                    </ul>
+
+                    <ul class="header_socials_2 d-flex">
+                        <li class="mr-4 color_grey_BO"><a href="#" class="fs-md-14">Подписаться на рассылку</a></li>
+                        <li class="mr-4"><a class="color_grey_7E fs-md-14 fw-500" href="tel: +7 (499) 750-72-72">+7 (499) 750-72-72</a></li>
+                        <li><a class="color_grey_7E fs-md-14 fw-500" href="mail: post@statut.ru">post@statut.ru</a></li>
+                    </ul>
+
+                    <div class="first_line"></div>
+                </div>
+
+                <div class="second_panel">
+                    <ul class="logo_list d-flex align-items-center">
+                        <li class="mr-5"><img src="./images/logo.svg" alt=""></li>
+                        <li class="mr-32"><a href="#" class="fw-500">Мероприятия</a></li>
+                        <li class="mr-32"><a href="#" class="fw-500">Видеокурсы</a></li>
+                        <li class="mr-32"><a href="#" class="fw-500">Лекторы</a></li>
+                        <li class="mr-32"><a href="#" class="fw-500">Контакты</a></li>
+                        <li><a href="#" class="fw-500">FAQ</a></li>
+                    </ul>
+                    <ul class="logo_list_2 d-flex align-items-center">
+                        <li class="d-flex align-items-center">
+                            <div class="bag">
+                                <img src="./images/bag.svg" alt="">
+                                <div class="items_counter d-flex align-items-center">1</div>
+                            </div>
+                            <a href="#" class="fs-md-16 fw-500 ml-3">Мои заказы</a>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <img src="./images/cab.svg" alt="">
+                            <a href="#" class="fs-md-16 fw-500 ml-3">Мои заказы</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </header>
+
+        </div>
+    </div>
+</div>
+
+
+
+    <body>
+
+        <div class="container">
+
+            <div class="page_nav d-flex">
+                <div class="color_grey_BO">Главная <span class="ml-2 mr-2">—</span> Мероприятия</div>
+            </div>
+
+
+            <div class="fs-md-56 fs-32 fw-500 mb-4">Мероприятия</div>
+
+            <ul class="events_filter_container mb-4">
+                <li>
+                   <div class="fs-14 mb-1 color_grey_7E">Ключевые слова</div>
+                   <div class="my_input d-flex align-items-center justify-content-between" style="color: #D6DCE1">Все направления
+                    <svg style="transform: rotate(270deg);" width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.5 1L1.5 7L7.5 13" stroke="#73797E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                   </div>
+                </li>
+                <li>
+                    <div class="fs-14 mb-1 color_grey_7E">Направление</div>
+                    <div class="my_input d-flex align-items-center justify-content-between" style="color: #D6DCE1">Все направления
+                     <svg style="transform: rotate(270deg);" width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <path d="M7.5 1L1.5 7L7.5 13" stroke="#73797E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                     </svg>
+                    </div>
+                 </li>
+                 <li>
+                    <div class="fs-14 mb-1 color_grey_7E">Лекторы</div>
+                    <div class="my_input d-flex align-items-center justify-content-between" style="color: #D6DCE1">Все Лекторы
+                     <svg style="transform: rotate(270deg);" width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <path d="M7.5 1L1.5 7L7.5 13" stroke="#73797E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                     </svg>
+                    </div>
+                 </li>
+               
+            </ul>
+
+
+            <div class="d-flex justify-content-between align-items-end">
+                <div class="d-flex mt-4">
+                    <div class="format_btn fs-md-16 fs-14 mr-2 noselect">Онлайн обучение</div>
+                    <div class="format_btn fs-md-16 fs-14 noselect">Очное обучение</div>
+                </div>
+                <div class="dawnload_btn d-flex align-items-center noselect">
+                    <svg class="mr-1" width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.33366 0.333008H2.00033C1.26699 0.333008 0.673659 0.933008 0.673659 1.66634L0.666992 12.333C0.666992 13.0663 1.26033 13.6663 1.99366 13.6663H10.0003C10.7337 13.6663 11.3337 13.0663 11.3337 12.333V4.33301L7.33366 0.333008ZM8.66699 10.9997H3.33366V9.66634H8.66699V10.9997ZM8.66699 8.33301H3.33366V6.99967H8.66699V8.33301ZM6.66699 4.99967V1.33301L10.3337 4.99967H6.66699Z" fill="#33A2B6"/>
+                    </svg>
+                    <div class="fs-md-14 fs-12 fw-500">
+                        Скачать учебный план
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="mt-40 mb-3 fs-md-16 fs-14 fw-500">Октябрь 2022 </div>
+
+            <ul class="events_cards">
+                <a href="#">
+                <li class="d-flex justify-content-between mb-12">
+                    <div class="first_column">
+                        <div class="d-flex mb-12">
+                            <svg class="mr-2" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.5 1.5H10V1C10 0.867392 9.94732 0.740215 9.85355 0.646447C9.75979 0.552678 9.63261 0.5 9.5 0.5C9.36739 0.5 9.24021 0.552678 9.14645 0.646447C9.05268 0.740215 9 0.867392 9 1V1.5H4V1C4 0.867392 3.94732 0.740215 3.85355 0.646447C3.75979 0.552678 3.63261 0.5 3.5 0.5C3.36739 0.5 3.24021 0.552678 3.14645 0.646447C3.05268 0.740215 3 0.867392 3 1V1.5H1.5C1.23488 1.5003 0.980699 1.60576 0.793228 1.79323C0.605757 1.9807 0.500303 2.23488 0.5 2.5V12.5C0.500303 12.7651 0.605757 13.0193 0.793228 13.2068C0.980699 13.3942 1.23488 13.4997 1.5 13.5H11.5C11.7651 13.4997 12.0193 13.3942 12.2068 13.2068C12.3942 13.0193 12.4997 12.7651 12.5 12.5V2.5C12.4997 2.23488 12.3942 1.9807 12.2068 1.79323C12.0193 1.60576 11.7651 1.5003 11.5 1.5ZM3 2.5V3C3 3.13261 3.05268 3.25979 3.14645 3.35355C3.24021 3.44732 3.36739 3.5 3.5 3.5C3.63261 3.5 3.75979 3.44732 3.85355 3.35355C3.94732 3.25979 4 3.13261 4 3V2.5H9V3C9 3.13261 9.05268 3.25979 9.14645 3.35355C9.24021 3.44732 9.36739 3.5 9.5 3.5C9.63261 3.5 9.75979 3.44732 9.85355 3.35355C9.94732 3.25979 10 3.13261 10 3V2.5H11.5L11.5001 4.5H1.5V2.5H3ZM11.5 12.5H1.5V5.5H11.5002L11.5006 12.5H11.5Z" fill="#9BA7B0"/>
+                            </svg>
+                            <div class="color_grey_BO fs-14">17 октября - 12 октября 2022</div>
+                        </div>
+                        <div class="fw-500 fs-md-20 fs-18">ПОДГОТОВКА И ВЕДЕНИЕ ДЕЛ В СУДЕ. Исполнение судебных решений</div>
+                        <div class="d-flex cat_container mt-3">
+                            <div class="cat_item fs-md-14 fs-12 mb-2 mr-2">Права на результаты интеллектуальной деятельности</div>
+                            <div class="cat_item fs-md-14 fs-12 mb-2">Программа повышения квалификации</div>
+                        </div>
+                    </div>
+
+                    <div class="second_column">
+                        <div class="cost d-flex justify-content-between">
+                            <div class="">
+                                <div class="fs-md-14 fs-12 color_grey_BO">Очное</div>
+                                <div class="fs-md-20 fs-16 fw-500">34 500 ₽</div>
+                            </div>
+                            <div class="">
+                                <div class="fs-md-14 fs-12 color_grey_BO">Очное</div>
+                                <div class="fs-md-20 fs-16 fw-500">34 500 ₽</div>
+                            </div>
+                        </div>
+                        <div class="Primary2 mt-md-3 mt-2">Стать участником</div>
+
+                    </div>
+                </li>
+                </a>
+
+                <a href="#">
+                    <li class="d-flex justify-content-between mb-12">
+                        <div class="first_column">
+                            <div class="d-flex mb-12">
+                                <svg class="mr-2" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.5 1.5H10V1C10 0.867392 9.94732 0.740215 9.85355 0.646447C9.75979 0.552678 9.63261 0.5 9.5 0.5C9.36739 0.5 9.24021 0.552678 9.14645 0.646447C9.05268 0.740215 9 0.867392 9 1V1.5H4V1C4 0.867392 3.94732 0.740215 3.85355 0.646447C3.75979 0.552678 3.63261 0.5 3.5 0.5C3.36739 0.5 3.24021 0.552678 3.14645 0.646447C3.05268 0.740215 3 0.867392 3 1V1.5H1.5C1.23488 1.5003 0.980699 1.60576 0.793228 1.79323C0.605757 1.9807 0.500303 2.23488 0.5 2.5V12.5C0.500303 12.7651 0.605757 13.0193 0.793228 13.2068C0.980699 13.3942 1.23488 13.4997 1.5 13.5H11.5C11.7651 13.4997 12.0193 13.3942 12.2068 13.2068C12.3942 13.0193 12.4997 12.7651 12.5 12.5V2.5C12.4997 2.23488 12.3942 1.9807 12.2068 1.79323C12.0193 1.60576 11.7651 1.5003 11.5 1.5ZM3 2.5V3C3 3.13261 3.05268 3.25979 3.14645 3.35355C3.24021 3.44732 3.36739 3.5 3.5 3.5C3.63261 3.5 3.75979 3.44732 3.85355 3.35355C3.94732 3.25979 4 3.13261 4 3V2.5H9V3C9 3.13261 9.05268 3.25979 9.14645 3.35355C9.24021 3.44732 9.36739 3.5 9.5 3.5C9.63261 3.5 9.75979 3.44732 9.85355 3.35355C9.94732 3.25979 10 3.13261 10 3V2.5H11.5L11.5001 4.5H1.5V2.5H3ZM11.5 12.5H1.5V5.5H11.5002L11.5006 12.5H11.5Z" fill="#9BA7B0"/>
+                                </svg>
+                                <div class="color_grey_BO fs-14">17 октября - 12 октября 2022</div>
+                            </div>
+                            <div class="fw-500 fs-md-20 fs-18">ПОДГОТОВКА И ВЕДЕНИЕ ДЕЛ В СУДЕ. Исполнение судебных решений</div>
+                            <div class="d-flex cat_container mt-3">
+                                <div class="cat_item fs-md-14 fs-12 mb-2 mr-2">Права на результаты интеллектуальной деятельности</div>
+                                <div class="cat_item fs-md-14 fs-12 mb-2">Программа повышения квалификации</div>
+                            </div>
+                        </div>
+    
+                        <div class="second_column">
+                            <div class="cost d-flex justify-content-between">
+                                <div class="">
+                                    <div class="fs-md-14 fs-12 color_grey_BO">Очное</div>
+                                    <div class="fs-md-20 fs-16 fw-500">34 500 ₽</div>
+                                </div>
+                                <div class="">
+                                    <div class="fs-md-14 fs-12 color_grey_BO">Очное</div>
+                                    <div class="fs-md-20 fs-16 fw-500">34 500 ₽</div>
+                                </div>
+                            </div>
+                            <div class="Primary2 mt-md-3 mt-2">Стать участником</div>
+    
+                        </div>
+                    </li>
+                    </a>
+
+                    <a href="#">
+                        <li class="d-flex justify-content-between mb-12">
+                            <div class="first_column">
+                                <div class="d-flex mb-12">
+                                    <svg class="mr-2" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.5 1.5H10V1C10 0.867392 9.94732 0.740215 9.85355 0.646447C9.75979 0.552678 9.63261 0.5 9.5 0.5C9.36739 0.5 9.24021 0.552678 9.14645 0.646447C9.05268 0.740215 9 0.867392 9 1V1.5H4V1C4 0.867392 3.94732 0.740215 3.85355 0.646447C3.75979 0.552678 3.63261 0.5 3.5 0.5C3.36739 0.5 3.24021 0.552678 3.14645 0.646447C3.05268 0.740215 3 0.867392 3 1V1.5H1.5C1.23488 1.5003 0.980699 1.60576 0.793228 1.79323C0.605757 1.9807 0.500303 2.23488 0.5 2.5V12.5C0.500303 12.7651 0.605757 13.0193 0.793228 13.2068C0.980699 13.3942 1.23488 13.4997 1.5 13.5H11.5C11.7651 13.4997 12.0193 13.3942 12.2068 13.2068C12.3942 13.0193 12.4997 12.7651 12.5 12.5V2.5C12.4997 2.23488 12.3942 1.9807 12.2068 1.79323C12.0193 1.60576 11.7651 1.5003 11.5 1.5ZM3 2.5V3C3 3.13261 3.05268 3.25979 3.14645 3.35355C3.24021 3.44732 3.36739 3.5 3.5 3.5C3.63261 3.5 3.75979 3.44732 3.85355 3.35355C3.94732 3.25979 4 3.13261 4 3V2.5H9V3C9 3.13261 9.05268 3.25979 9.14645 3.35355C9.24021 3.44732 9.36739 3.5 9.5 3.5C9.63261 3.5 9.75979 3.44732 9.85355 3.35355C9.94732 3.25979 10 3.13261 10 3V2.5H11.5L11.5001 4.5H1.5V2.5H3ZM11.5 12.5H1.5V5.5H11.5002L11.5006 12.5H11.5Z" fill="#9BA7B0"/>
+                                    </svg>
+                                    <div class="color_grey_BO fs-14">17 октября - 12 октября 2022</div>
+                                </div>
+                                <div class="fw-500 fs-md-20 fs-18">ПОДГОТОВКА И ВЕДЕНИЕ ДЕЛ В СУДЕ. Исполнение судебных решений</div>
+                                <div class="d-flex cat_container mt-3">
+                                    <div class="cat_item fs-md-14 fs-12 mb-2 mr-2">Права на результаты интеллектуальной деятельности</div>
+                                    <div class="cat_item fs-md-14 fs-12 mb-2">Программа повышения квалификации</div>
+                                    <div class="cat_item fs-md-14 fs-12 mb-2 mr-2">Права на результаты интеллектуальной деятельности</div>
+                                    <div class="cat_item fs-md-14 fs-12 mb-2">Программа повышения квалификации</div>
+                                    <div class="cat_item fs-md-14 fs-12 mb-2 mr-2">Права на результаты интеллектуальной деятельности</div>
+                                    <div class="cat_item fs-md-14 fs-12 mb-2 mr-2">Программа повышения квалификации</div>
+                                    <div class="cat_item fs-md-14 fs-12 mb-2 mr-2">Программа</div>
+                                    <div class="cat_item fs-md-14 fs-12 mb-2 mr-2">Программа</div>
+                                    <div class="cat_item fs-md-14 fs-12 mb-2 mr-2">Программа</div>
+                                    <div class="cat_item fs-md-14 fs-12 mb-2 mr-2">Программа</div>
+                                    <div class="cat_item fs-md-14 fs-12 mb-2 mr-2">Программа</div>
+
+
+                                </div>
+                            </div>
+        
+                            <div class="second_column">
+                                <div class="cost d-flex justify-content-between">
+                                    <div class="">
+                                        <div class="fs-md-14 fs-12 color_grey_BO">Очное</div>
+                                        <div class="fs-md-20 fs-16 fw-500">34 500 ₽</div>
+                                    </div>
+                                    <div class="">
+                                        <div class="fs-md-14 fs-12 color_grey_BO">Очное</div>
+                                        <div class="fs-md-20 fs-16 fw-500">34 500 ₽</div>
+                                    </div>
+                                </div>
+                                <div class="Primary2 mt-md-3 mt-2">Стать участником</div>
+        
+                            </div>
+                        </li>
+                        </a>
+            </ul>
+        
+
+            <div class="events_more secondary1 w-100 mt-4">Показать все</div>
+         <div class="my_96_pt"></div>
+
+        </div>
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="container">
+            <div class="d-flex">
+                <div class="first_column d-flex justify-content-between w-50">
+                    <div class="w-50"><img class="logo_footer" src="./images/logo_footer.svg" alt=""></div>
+                    <ul class="w-50 footer_menu">
+                        <li class="mb-md-3 mb-12"><a href="#" class="fs-md-16 fs-12">Мероприятия</a></li>
+                        <li class="mb-md-3 mb-12"><a href="#" class="fs-md-16 fs-12">Видеокурсы</a></li>
+                        <li class="mb-md-3 mb-12"><a href="#" class="fs-md-16 fs-12">Лекторы</a></li>
+                        <li class="mb-md-3 mb-12"><a href="#" class="fs-md-16 fs-12">Контакты</a></li>
+                        <li><a href="#" class="fs-md-16 fs-12">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="second_column d-flex justify-content-between w-50">
+                    <ul class="w-50 footer_menu_2">
+                        <li class="fs-md-14 fs-12 mb-2 color_grey_A2">Связаться с нами</li>
+                        <li class="fs-24 fw-500 mb-2"><a href="tel: +7 (499) 750-72-72">+7 (499) 750-72-72</a></li>
+                        <li class="fs-md-18 fs-16 fw-500 mb-2"><a href="mail: statut.help@mail.ru">statut.help@mail.ru</a></li>
+                    </ul>
+
+                    <div class="w-50">
+                        <div class="fs-md-14 fs-12 mb-2 color_grey_A2">Мы в социальных сетях</div>
+                        <ul class="d-flex">
+                            <li class="mr-2"><a href="#"><img src="./images/vk_footer.svg" alt=""></a></li>
+                            <li class="mr-2"><a href="#"><img src="./images/you_tube_footer.svg" alt=""></a></li>
+                            <li><a href="#"><img src="./images/tel_footer.svg" alt=""></a></li>
+                        </ul>
+                    </ul>
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    
+
+
+
+</html>
+
+
+

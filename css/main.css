@@ -59,6 +59,7 @@ line-height: 19px;
   font-size: 16px;
 line-height: 19px;
 }
+
 .color_grey_BO{
     color: #9BA7B0;
 }
@@ -68,6 +69,10 @@ line-height: 19px;
 .color_grey_7E{
     color: #73797E;
 }
+.page_nav{
+  margin-bottom: 64px;
+}
+
 .Primary1 {
   background: #BEE6ED;
   border-radius: 125px;
@@ -470,4 +475,58 @@ border-radius: 16px;
 
 .main_feedback_container textarea{
 min-height: 127px;
+}
+
+
+
+
+/* /  events_page//////////////////////////////////////////////////////// */
+.events_filter_container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.format_btn{
+  background: #F1F5F8;
+  border-radius: 24px;
+  padding: 6px 16px;
+  text-align: center;
+  cursor: pointer;
+}
+.format_btn_active{
+  background: #BEE6ED!important;
+  font-weight: 500;
+}
+.dawnload_btn{
+  border: 1px solid #33A2B6;
+border-radius: 125px;
+padding: 9px 24px;
+cursor: pointer;
+height: 46px
+}
+
+.events_cards li{
+  background: #FFFFFF;
+border: 1px solid #E1E5E9;
+border-radius: 16px;
+padding: 32px;
+height: 100%;
+}
+
+.events_cards .first_column{
+  width: 66%;
+}
+
+.events_cards .second_column{
+  width: 20%;
+  padding-left: 24px;
+  border-left: 1px solid #E1E5E9;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.second_column .cost{
+
 }
