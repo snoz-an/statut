@@ -1,5 +1,51 @@
 $(document).ready(function(){
 
+  
+  $('#videocources_list_slider').slick({
+    infinite: true,
+    dots: false,
+    slidesToShow: 3,
+
+    slidesToScroll: 1,
+    // dotsClass: 'slick-dots slick-dots-partners',
+    arrow: false,
+    // centerMode: true,
+    prevArrow: $('.videocources_list_slider-prev'),
+    nextArrow: $('.videocources_list_slider-next'),
+    responsive: [
+        
+        {
+          breakpoint: 573,
+          settings: {
+            slidesToShow: 2,
+          }
+        }
+    ]
+  });
+
+
+  
+  $('#events_list_slider').slick({
+    infinite: true,
+    dots: false,
+    slidesToShow: 3,
+
+    slidesToScroll: 1,
+    // dotsClass: 'slick-dots slick-dots-partners',
+    arrow: false,
+    // centerMode: true,
+    prevArrow: $('.events_list_slider-prev'),
+    nextArrow: $('.events_list_slider-next'),
+    responsive: [
+        
+        {
+          breakpoint: 573,
+          settings: {
+            slidesToShow: 2,
+          }
+        }
+    ]
+  });
 
     
     $('#slider-partners').slick({
