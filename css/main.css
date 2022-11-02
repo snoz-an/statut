@@ -79,7 +79,7 @@ line-height: 19px;
 .Primary1 {
   background: #BEE6ED;
   border-radius: 125px;
-  padding: 16px 0;
+  padding: 16px 24px;
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
@@ -93,7 +93,7 @@ line-height: 19px;
 .Primary2{
   background: #BEE6ED;
 border-radius: 125px;
-padding: 12px 0;
+padding: 12px 24px;
 font-weight: 500;
 font-size: 14px;
 line-height: 18px;
@@ -109,7 +109,7 @@ transition: .3s;
   background: #F1F5F8;
   border-radius: 125px;
   text-align: center;
-  padding: 16px 0;
+  padding: 16px 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -119,11 +119,26 @@ transition: .3s;
 .secondary1:hover{
   background: #EAF0F4;
 }
+
+.secondary2{
+  background: #F1F5F8;
+  border-radius: 125px;
+  text-align: center;
+  padding: 12px 24px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: .3s;
+}
+.secondary2:hover{
+  background: #EAF0F4;
+}
 .Primary3{
   background: #FFFFFF;
   border-radius: 125px;
   text-align: center;
-  padding: 16px 0;
+  padding: 16px 24px;
   color: black;
   font-size: 16px;
   line-height: 20px;
@@ -875,3 +890,168 @@ border-radius: 16px;
 margin: 0 12px;
 }
 
+
+.inputs_container_personal_area{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.password_save_btn{
+  padding: 12px 24px;
+  text-align: center;
+  transition: .3s;
+  border-radius: 125px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.btn_disabled{
+  background: #F4F8FB;
+  color: #D6DCE1;
+  transition: .3s;
+  cursor: default;
+}
+
+
+.events_list_pers_cab {
+  display: grid;
+  gap: 24px;
+}
+.events_list_pers_cab .events_list_pers_cab_li {
+  padding: 32px;
+  border: 1px solid #D6DCE1;
+  border-radius: 16px;
+}
+
+.events_list_pers_cab .label{
+  border-radius: 24px;
+  width: fit-content;
+  padding: 4px 12px;
+  color: white;
+}
+.green_back{
+  background: #5AD381;
+}
+.grey_back{
+  background: #D6DCE1;
+}
+.events_list_pers_cab .line {
+  width: 100%;
+  height: 1px;
+  background: #E1E5E9;
+  margin: 20px 0;
+}
+
+.events_list_pers_cab .data_list{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.videos_list_pers_cab .img{
+  width: 130px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+
+
+
+
+.my_ul_event .img_container{
+  position: relative;
+  min-height: 480px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.my_ul_event .img_container img{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.my_ul_event .img_container .fade{
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: .6;
+}
+.my_ul_event .img_container .h{
+  position: relative;
+  color: white;
+  z-index: 2;
+  padding: 12px 48px 12px 48px;
+}
+
+.my_ul_event .img_container .p{
+  position: relative;
+  color: white;
+  z-index: 2;
+  padding-left: 48px;
+}
+.my_ul_event .img_container .label{
+  background: rgba(241, 245, 248, 0.4);
+  backdrop-filter: blur(2px);
+  border-radius: 24px;
+  padding: 4px 12px;
+  color: white;
+}
+.my_ul_event .img_container .labels{
+  padding: 48px 48px 0 48px;
+  z-index: 2;
+  position: relative;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+
+.cab_event_btns{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.cab_event_btns .cab_event_btn{
+  padding-bottom: 16px;
+  border-bottom: 2px solid #D6DCE1;
+  cursor: pointer;
+}
+.cab_event_btns .active{
+  padding-bottom: 16px;
+  border-bottom: 2px solid black;
+}
+
+.cab_event_my_ul-1-list{
+display: grid;
+gap: 24px;
+}
+.cab_event_my_ul-1-list li {
+  border: 1px solid #D6DCE1;
+border-radius: 16px;
+padding: 24px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.cab_event_my_ul-2-list{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+
+.cab_event_my_ul-3-list{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.cab_event_my_ul-3-list li{
+  padding: 24px;
+  border: 1px solid #E1E5E9;
+  border-radius: 16px;
+}

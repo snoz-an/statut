@@ -340,46 +340,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>
 
-<script>
-    $('.cab_item_link').click(function(){
-        $('.cab_item_link').find('div').removeClass('left_menu_text_active');
-        $('.cab_item_link').find('path').removeClass('cab_res_link_svg_active');
-        $('.cab_item_link').find('path').removeClass('cab_res_link_svg_stroke_active');
-        $('.cab_item_link').find('circle').removeClass('cab_res_link_svg_stroke_active');
-        active_tab = $(this).attr('data-id');
-        // console.log(active_tab);
-        $('.cab_item_link').removeClass('cab_item_link_active');
-        $(this).addClass('cab_item_link_active');
-
-        console.log($('.data-content').attr('data-content'));
-
-
-        $('.my_ul').addClass('d-none');
-        $('.my_ul-'+active_tab).removeClass('d-none');
-        
-        
-});
-</script>
 
