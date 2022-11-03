@@ -12,6 +12,15 @@
 
 
 @media screen and (max-width: 1440px) {
+  .order_card{
+    width: 26%!important;
+  }
+  .order_item{
+    width: 80%;
+  }
+  .order_item_text {
+    width: 54%!important;
+}
 
 }
 
@@ -1076,26 +1085,37 @@ align-items: center;
   border-radius: 16px;
 }
 
+.order_container{
+  display: grid;
+  /* width: 100%; */
+  /* grid-template-columns: repeat(2, 1fr); */
+}
 
 .order_container .second_column{
-  /* width: 68%; */
-  width: 58%;
-    position: absolute;
-    top: 0;
+    /* position: absolute;
+    top: 0; */
 }
 
 .order_card{
   padding: 24px;
   background: #F1F5F8;
-  width: 30%;
+  /* width: 30%; */
+  width: 24%;
+
+  border-radius: 16px;
+  position: fixed;
+  top: 270px;
 }
 
 .order_item li{
   padding: 24px;
   border: 1px solid #E1E5E9;
   border-radius: 16px;
-  width: 100%;
+  /* width: 68%; */
+  width: 76%;
+
   margin-bottom: 16px;
+  position: relative;
 }
 
 .counter_order_service{
@@ -1103,7 +1123,32 @@ align-items: center;
   background: #F1F5F8;
   border-radius: 24px;
   width: fit-content;
+  height: fit-content;
 }
 .counter_order_service svg{
   cursor: pointer;
+}
+
+.order_item_text{
+  width: 56%;
+}
+
+.order_item{
+  width: 82%;
+}
+.order_item .close{
+      position: absolute;
+      right: 32px;
+      top: 32px;
+}
+
+.order_card .line{
+height: 1px;
+background: #E1E5E9;
+width: 100%;
+}
+
+.order_item_text img{
+  border-radius: 8px;
+  width: 112px;
 }

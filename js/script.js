@@ -1,17 +1,17 @@
 $( document ).ready(function() {
 
     $('.minus').click(function(){
-       var count = $(this).parent().find('.counter_order_service_count').text();
-       count = count - 1;
+        var count = $(this).parent().find('.counter_order_service_count').text();
+        count = Number(count)
+        count = count - 1;
+        $(this).parent().find('.counter_order_service_count').text(count)
     })
 
     $('.plus').click(function(){
-        var count_2 = $(this).parent().find('.counter_order_service_count').text();
-        count_2 = Number(count_2)
-        count_2 = count_2 + 1;
-        $(this).parent().find('.counter_order_service_count').text(count_2)
-        console.log(count_2);
-
+        var count = $(this).parent().find('.counter_order_service_count').text();
+        count = Number(count)
+        count = count + 1;
+        $(this).parent().find('.counter_order_service_count').text(count)
      })
 
     ///PERSONAL_TOGGLE////////////
