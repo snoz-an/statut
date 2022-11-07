@@ -1,5 +1,9 @@
 $( document ).ready(function() {
 
+    $('.accordion-main-faq').click(function(){
+        $(this).find('svg').toggleClass('rotate');
+    })
+
     $('.minus').click(function(){
         var count = $(this).parent().find('.counter_order_service_count').text();
         count = Number(count)
