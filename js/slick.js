@@ -1,5 +1,35 @@
 $(document).ready(function(){
 
+  var $st_2 = $('.pagination_2');
+var $slickEl_2 = $('#slider-order');
+
+$slickEl_2.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+  var i = (currentSlide ? currentSlide : 0) + 1;
+  $st_2.text(i + ' / ' + slick.slideCount);
+});
+
+
+$('#slider-order').slick({
+  infinite: true,
+  dots: false,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrow: false,
+  prevArrow: $('.slider-order-prev'),
+  nextArrow: $('.slider-order-next'),
+  responsive: [
+      
+      {
+        breakpoint: 573,
+        settings: {
+          slidesToShow: 2,
+        }
+      }
+  ]
+});
+
+
+
   
   $('#videocources_list_slider').slick({
     infinite: true,
