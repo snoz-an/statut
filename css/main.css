@@ -186,6 +186,111 @@ transition: .3s;
   padding-top: 96px;
 }
 
+/* modals */
+
+.my-modal-content{
+padding: 48px;
+position: relative;
+border-radius: 16px;
+
+}
+.my-modal-dialog{
+  min-width: 644px;
+}
+.close_modal{
+  position: absolute;
+  top: 48px;
+  right: 48px;
+  cursor: pointer;
+}
+.modal_textarea{
+  min-height: 127px;
+}
+.success_icon{
+  width: 56px;
+}
+.forget_pas{
+  cursor: pointer;
+}
+.modal_enter_foem_1_prev{
+  cursor: pointer;
+}
+.ur_cont{
+  background: #F1F5F8;
+  border-radius: 24px;
+  padding: 4px;
+  width: fit-content;
+}
+.ur_cont_item{
+  padding: 8px 12px;
+  border-radius: 23px;
+  color: #D6DCE1;
+  width: fit-content;
+  cursor: pointer;
+}
+.ur_cont_active{
+  background: #FFFFFF;
+  color: #000000;
+}
+.modal_reg_inputs_list {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 16px;
+margin-top: 16px;
+}
+
+/* modals */
+
+/* /////////////////////////*CHECKBOX */
+
+/* для элемента input c type="checkbox" */
+.btns_tets button{
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+.custom-checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+/* для элемента label, связанного с .custom-checkbox */
+.custom-checkbox+label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+/* создание в label псевдоэлемента before со следующими стилями */
+.custom-checkbox+label::before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #73797E;
+  border-radius: 4px;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+/* стили для чекбокса, находящегося в состоянии checked */
+.custom-checkbox:checked+label::before {
+  background-image: url('../images/checkbox_active.svg');
+  background-size: auto;
+
+}
+
+/* стили для чекбокса, находящегося в состоянии disabled */
+.custom-checkbox:disabled+label::before {
+  background-color: #e9ecef;
+}
+
+/* /////////////////////////*CHECKBOX */
+
 /* HEADER */
 
 .fixed {

@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="./images/logo.svg" type="image/x-icon">
+
+     <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Slick CSS -->
+  <link rel="stylesheet" type="text/css" href="./js/slick-1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="./js/slick-1.8.1/slick/slick-theme.css" /> 
+  <!-- Main CSS -->
+   <link rel="stylesheet" href="./css/main.css">
+   <link rel="stylesheet" href="./css/helper.css">
+   <link rel="stylesheet" href="./fonts/Inter/stylesheet.css">
+   
+   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+   <script src="https://api-maps.yandex.ru/2.1/?apikey=db32f154-f5b8-442a-bb04-5f55f07bbae7&lang=ru_RU"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.2.6/swiper-bundle.min.js" integrity="sha512-CGsqPVUZUUVx5RS41AFdu5Ghj3cKcpHxg7ae66br18nqK5dTPJ2k6srKYVHMMIvaq96QIoOE8JrqXrlWuppfEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.2.5/swiper-bundle.min.js"></script>
+    <script src="./js/logo.js"></script>
+
+    <!-- SLICK JS -->
+    <script src="./js/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="./js/slick.js"></script>
+
+   <script src="./js/script.js"></script>
+   <script src="./js/quiz.js"></script>
+   <script src="./js/logo.js"></script>
+   
+   <title>STATUT</title>
+
+<!-- Yandex.Metrika counter -->
+<!-- /Yandex.Metrika counter -->
+
+</head>
+
+<div class="header_container mb-4">
+    <div class="fixed">
+        <div class="container" style="position: relative;">
+            <header>
+                <div class="first_panel">
+                    <ul class="header_socials d-flex">
+                        <li><a href="#"><img src="./images/vk.svg" alt=""></a></li>
+                        <li><a href="#"><img src="./images/youtube.svg" alt=""></a></li>
+                        <li><a href="#"><img src="./images/telegram.svg" alt=""></a></li>
+                        <li class="color_grey_BO"><a href="#" class="fs-md-14">Сведения об образовательной организации</a></li>
+                    </ul>
+
+                    <ul class="header_socials_2 d-flex">
+                        <li class="mr-4 color_grey_BO"><a href="#" class="fs-md-14">Подписаться на рассылку</a></li>
+                        <li class="mr-4"><a class="color_grey_7E fs-md-14 fw-500" href="tel: +7 (499) 750-72-72">+7 (499) 750-72-72</a></li>
+                        <li><a class="color_grey_7E fs-md-14 fw-500" href="mail: post@statut.ru">post@statut.ru</a></li>
+                    </ul>
+
+                    <div class="first_line"></div>
+                </div>
+
+                <div class="second_panel">
+                    <ul class="logo_list d-flex align-items-center">
+                        <li class="mr-5"><img src="./images/logo.svg" alt=""></li>
+                        <li class="mr-32"><a href="#" class="fw-500">Мероприятия</a></li>
+                        <li class="mr-32"><a href="#" class="fw-500">Видеокурсы</a></li>
+                        <li class="mr-32"><a href="#" class="fw-500">Лекторы</a></li>
+                        <li class="mr-32"><a href="#" class="fw-500">Контакты</a></li>
+                        <li><a href="#" class="fw-500">FAQ</a></li>
+                    </ul>
+                    <ul class="logo_list_2 d-flex align-items-center">
+                        <li class="d-flex align-items-center">
+                            <div class="bag">
+                                <img src="./images/bag.svg" alt="">
+                                <div class="items_counter d-flex align-items-center">1</div>
+                            </div>
+                            <a href="#" class="fs-md-16 fw-500 ml-3">Мои заказы</a>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <img src="./images/cab.svg" alt="">
+                            <a href="#" class="fs-md-16 fw-500 ml-3">Мои заказы</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </header>
+
+        </div>
+    </div>
+</div>
+
+
+
+    <body>
+
+        <div class="container" style="min-height: 700px;">
+            <div class="fs-md-56 fs-32 mb-5 fw-500">MODALS</div>
+
+            <!-- Кнопка-триггер модального окна -->
+
+            <div class="d-flex btns_tets" style="flex-wrap: wrap;">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal_feedback">
+                    Запустить Форма обратной связи
+                </button>
+
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal_thank_you">
+                    Запустить успешную отправку формы
+                </button>
+
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal_sub">
+                    Запустить Подписку на рассылку
+                </button>
+
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal_enter">
+                    Запустить Вход на сайт
+                </button>
+
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal_refresh_pass_success">
+                    Запустить Проверьте почту
+                </button>
+
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal_reg">
+                    Запустить Проверьте почту
+                </button>
+
+
+                
+
+            
+
+            
+            </div>
+
+
+
+            <!-- Модальное окно -->
+            <div class="modal fade" id="modal_reg" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog my-modal-dialog modal-dialog-centered">
+                <div class="modal-content my-modal-content">
+                    
+
+                    <div class="fs-md-32 fs-24 fw-500 mb-32">Регистрация</div>
+
+                    <div class="d-flex ur_cont">
+                        <div id="uri_f" class="ur_cont_item ur_cont_active mr-12">Юридическое лицо</div>
+                        <div id="fiz_f" class="ur_cont_item">Физическое лицо</div>
+
+                    </div>
+
+                    <form action="" class="mt-32 modal_reg_form_1">
+                        <div class="fs-md-14 fs-12 mb-1 color_grey_7E">Наименование организации *</div>
+                        <input type="text" class="w-100 form-input my_input" placeholder="Введите наименование организации">
+
+                        <ul class="modal_reg_inputs_list">
+                            <li>
+                                <div class="fs-md-14 fs-12 mb-1 color_grey_7E">ИНН *</div>
+                                <input type="text" class="w-100 form-input my_input" placeholder="Введите ИНН">
+                            </li>
+                            <li>
+                                <div class="fs-md-14 fs-12 mb-1 color_grey_7E">КПП *</div>
+                                <input type="text" class="w-100 form-input my_input" placeholder="Введите КПП">
+                            </li>
+                        </ul>
+
+
+                        
+                        <div class="fs-md-14 fs-12 mb-1 mt-3 color_grey_7E">Адрес *</div>
+                        <input type="text" class="w-100 form-input my_input" placeholder="Введите Адрес">
+
+                        <div class="fs-md-14 fs-12 mb-1 mt-3 color_grey_7E">Телефон *</div>
+                        <input type="text" class="w-100 form-input my_input" placeholder="Введите Телефон">
+
+
+                        <div class="fs-md-14 fs-12 mb-1 mt-3 color_grey_7E">E-mail *</div>
+                        <input type="text" class="w-100 form-input my_input" placeholder="E-mail">
+
+
+                        <div class="checkbox mb-md-32 mb-3 mt-3">
+                            <input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="Нужен персональный диетолог">
+                            <label class="fs-md-14 fs-12 color_grey_BO" for="color-1">Я готов предоставить копии своих документов о высшем или среднем профессиональном образовании *</label>
+                        </div>
+                        
+                        <div class="Primary1 w-100 mt-32 mb-3">Зарегистрироваться</div>
+
+                        
+                        <div class="checkbox mb-md-32 mb-3 mt-3">
+                            <input class="custom-checkbox" type="checkbox" id="color-2" name="color-2" value="Нужен персональный диетолог">
+                            <label class="fs-md-14 fs-12 color_grey_BO" for="color-2">Я согласен(-на) с Политикой в отношении обработки персональных данных и Пользовательским соглашением</label>
+                        </div>
+
+                        <div class="d-flex justify-content-center mt-12">
+                            <div class="color_grey_BO fs-md-16 fs-14 fw-500">Войти</div>
+                        </div>
+
+                    </form>
+
+
+                    <form action="" class="mt-32 modal_reg_form_2 d-none">
+                        
+                        <div class="fs-md-14 fs-12 mb-1 mt-3 color_grey_7E">ФИО *</div>
+                        <input type="text" class="w-100 form-input my_input" placeholder="Введите ФИО">
+
+                        <div class="fs-md-14 fs-12 mb-1 mt-3 color_grey_7E">Адрес *</div>
+                        <input type="text" class="w-100 form-input my_input" placeholder="Введите Адрес">
+
+                        <div class="fs-md-14 fs-12 mb-1 mt-3 color_grey_7E">Телефон *</div>
+                        <input type="text" class="w-100 form-input my_input" placeholder="Введите Телефон">
+
+
+                        <div class="fs-md-14 fs-12 mb-1 mt-3 color_grey_7E">E-mail *</div>
+                        <input type="text" class="w-100 form-input my_input" placeholder="E-mail">
+
+                        <div class="checkbox mb-md-32 mb-3 mt-3">
+                            <input class="custom-checkbox" type="checkbox" id="color-3" name="color-3" value="Нужен персональный диетолог">
+                            <label class="fs-md-14 fs-12 color_grey_BO" for="color-3">Я готов предоставить копии своих документов о высшем или среднем профессиональном образовании *</label>
+                        </div>
+                        
+                        <div class="Primary1 w-100 mt-32 mb-3">Зарегистрироваться</div>
+
+                        
+                        <div class="checkbox mb-md-32 mb-3 mt-3">
+                            <input class="custom-checkbox" type="checkbox" id="color-4" name="color-4" value="Нужен персональный диетолог">
+                            <label class="fs-md-14 fs-12 color_grey_BO" for="color-4">Я согласен(-на) с Политикой в отношении обработки персональных данных и Пользовательским соглашением</label>
+                        </div>
+
+                        <div class="d-flex justify-content-center mt-12">
+                            <div class="color_grey_BO fs-md-16 fs-14 fw-500">Войти</div>
+                        </div>
+
+                        </form>
+
+
+                    
+
+                    <svg class="close_modal" data-dismiss="modal" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 2L14 14" stroke="#D6DCE1" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M2 14L14 2" stroke="#D6DCE1" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                        
+                </div>
+                </div>
+            </div>
+            <!-- Модальное окно -->
+
+
+  
+            <!-- Модальное окно -->
+            <div class="modal fade" id="modal_feedback" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog my-modal-dialog modal-dialog-centered">
+                <div class="modal-content my-modal-content">
+                    
+
+                    <div class="fs-md-32 fs-24 fw-500 mb-2">Форма обратной связи</div>
+                    <div class="fs-md-18 fs-16 color_grey_BO">Подзаголовок</div>
+                
+
+                    <form action="" class="mt-32">
+                        <div class="fs-md-14 fs-12 mb-1 color_grey_7E">ФИО *</div>
+                        <input type="text" class="w-100 form-input my_input" placeholder="ФИО">
+                        <div class="fs-md-14 fs-12 mb-1 mt-3 color_grey_7E">E-mail *</div>
+                        <input type="text" class="w-100 form-input my_input" placeholder="E-mail">
+                        <div class="fs-md-14 fs-12 mb-1 mt-3 color_grey_7E">Ваш вопрос/комментарий *</div>
+                        <textarea type="text" class="modal_textarea w-100 form-input my_input" placeholder="Введите ваш вопрос"></textarea>
+
+                        <div class="Primary1 w-100 mt-32 mb-3">Отправить</div>
+
+                        <div class="fs-md-14 fs-12 color_grey_BO">Нажимая кнопку «Отправить» вы подтверждаете свое согласие на обработку персональных данных</div>
+                    </form>
+
+                    <svg class="close_modal" data-dismiss="modal" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 2L14 14" stroke="#D6DCE1" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M2 14L14 2" stroke="#D6DCE1" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                        
+                </div>
+                </div>
+            </div>
+            <!-- Модальное окно -->
+
+
+            <!-- Модальное окно -->
+            <div class="modal fade" id="modal_thank_you" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog my-modal-dialog modal-dialog-centered">
+                <div class="modal-content my-modal-content">
+                    <img class="success_icon mb-2" src="./images/success.svg" alt="">
+                    <div class="fs-md-32 fs-24 fw-500 mb-2">Ваша заявка успешно отправлена</div>
+                    <div class="fs-md-18 fs-16 color_grey_BO">Наш менеджер вскоре свяжется с вами</div>
+                    <div class="Primary1 w-100 mt-32">На главную</div>
+                    <svg class="close_modal" data-dismiss="modal" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 2L14 14" stroke="#D6DCE1" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M2 14L14 2" stroke="#D6DCE1" stroke-width="2" stroke-linecap="round"/>
+                    </svg>   
+                </div>
+                </div>
+            </div>
+            <!-- Модальное окно -->
+
+
+            <!-- Модальное окно -->
+            <div class="modal fade" id="modal_sub" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog my-modal-dialog modal-dialog-centered">
+                <div class="modal-content my-modal-content">
+                    <div class="fs-md-32 fs-24 fw-500 mb-2">Подписка на рассылку</div>
+                    <div class="fs-md-18 fs-16 color_grey_BO">Подпишитесь на рассылку информации о наших мероприятиях.</div>
+                    <form action="" class="mt-32">
+                        <div class="fs-md-14 fs-12 mb-1 color_grey_7E">Mail *</div>
+                        <input type="text" class="w-100 form-input my_input" placeholder="Введите mail">
+                        <div class="Primary1 w-100 mt-32">Подписаться</div>
+                    </form>
+
+                    <svg class="close_modal" data-dismiss="modal" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 2L14 14" stroke="#D6DCE1" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M2 14L14 2" stroke="#D6DCE1" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                        
+                </div>
+                </div>
+            </div>
+            <!-- Модальное окно -->
+
+              <!-- Модальное окно -->
+              <div class="modal fade" id="modal_enter" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog my-modal-dialog modal-dialog-centered">
+                <div class="modal-content my-modal-content">
+                    
+
+                    <div class="align-items-center modal_enter_foem_1_prev d-none">
+                        <img src="./images/back.svg" alt="">
+                        <div class="fs-md-16 fs-14 ml-2">НАЗАД</div>
+                    </div>
+                    <div class="fs-md-32 fs-24 fw-500 mb-2 modal_enter_h">Вход на сайт</div> 
+                    <div class="fs-md-18 fs-16 mt-12 color_grey_BO modal_enter_foem_2_p d-none">Введите email, который вы указали при регистрации. Мы отправим ссылку для восстановления пароля</div>               
+
+                    <form class="modal_enter_foem_1" action="" class="mt-32">
+                        <div class="fs-md-14 fs-12 mb-1 mt-3 color_grey_7E">E-mail *</div>
+                        <input type="text" class="w-100 form-input my_input" placeholder="Введите E-mail">
+                        <div class="fs-md-14 fs-12 mb-1 mt-3 color_grey_7E">Пароль *</div>
+                        <input type="password" class="w-100 form-input my_input" placeholder="Введите пароль">
+                        <div class="fs-md-14 fs-12 mb-1 mt-3 color_grey_7E forget_pas">Забыли пароль?</div>
+                        <div class="Primary1 w-100 mt-32 mb-12">Войти</div>
+                        <div class="d-flex justify-content-center">
+                            <div class="color_grey_BO fs-md-16 fs-14 fw-500">Регистрация</div>
+                        </div>
+                    </form>
+
+                    <form class="modal_enter_foem_2 d-none" action="" class="mt-32">
+                        <div class="fs-md-14 fs-12 mb-1 mt-3 color_grey_7E">E-mail *</div>
+                        <input type="text" class="w-100 form-input my_input" placeholder="Введите E-mail">
+                        <div class="Primary1 w-100 mt-32 mb-12">Отправить</div>
+                    </form>
+
+                    <svg class="close_modal" data-dismiss="modal" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 2L14 14" stroke="#D6DCE1" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M2 14L14 2" stroke="#D6DCE1" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                        
+                </div>
+                </div>
+            </div>
+            <!-- Модальное окно -->
+
+
+            <!-- Модальное окно -->
+            <div class="modal fade" id="modal_refresh_pass_success" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog my-modal-dialog modal-dialog-centered">
+                <div class="modal-content my-modal-content">
+                    <div class="fs-md-32 fs-24 fw-500 mb-2">Проверьте почту</div>
+                    <div class="fs-md-18 fs-16 color_grey_BO">Мы отправили форму восстановление пароля на почту example@mail.ru
+
+                        Если письма нет во Входящих,проверьте Спам</div>
+                    <div class="Primary1 w-100 mt-32">Отправить повторно</div>
+                    <svg class="close_modal" data-dismiss="modal" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 2L14 14" stroke="#D6DCE1" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M2 14L14 2" stroke="#D6DCE1" stroke-width="2" stroke-linecap="round"/>
+                    </svg>   
+                </div>
+                </div>
+            </div>
+            <!-- Модальное окно -->
+
+            
+
+
+        </div>
+       
+    </body>
+
+
+
+
+
+
+    <footer>
+        <div class="container">
+            <div class="d-flex">
+                <div class="first_column d-flex justify-content-between w-50">
+                    <div class="w-50"><img class="logo_footer" src="./images/logo_footer.svg" alt=""></div>
+                    <ul class="w-50 footer_menu">
+                        <li class="mb-md-3 mb-12"><a href="#" class="fs-md-16 fs-12">Мероприятия</a></li>
+                        <li class="mb-md-3 mb-12"><a href="#" class="fs-md-16 fs-12">Видеокурсы</a></li>
+                        <li class="mb-md-3 mb-12"><a href="#" class="fs-md-16 fs-12">Лекторы</a></li>
+                        <li class="mb-md-3 mb-12"><a href="#" class="fs-md-16 fs-12">Контакты</a></li>
+                        <li><a href="#" class="fs-md-16 fs-12">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="second_column d-flex justify-content-between w-50">
+                    <ul class="w-50 footer_menu_2">
+                        <li class="fs-md-14 fs-12 mb-2 color_grey_A2">Связаться с нами</li>
+                        <li class="fs-24 fw-500 mb-2"><a href="tel: +7 (499) 750-72-72">+7 (499) 750-72-72</a></li>
+                        <li class="fs-md-18 fs-16 fw-500 mb-2"><a href="mail: statut.help@mail.ru">statut.help@mail.ru</a></li>
+                    </ul>
+
+                    <div class="w-50">
+                        <div class="fs-md-14 fs-12 mb-2 color_grey_A2">Мы в социальных сетях</div>
+                        <ul class="d-flex">
+                            <li class="mr-2"><a href="#"><img src="./images/vk_footer.svg" alt=""></a></li>
+                            <li class="mr-2"><a href="#"><img src="./images/you_tube_footer.svg" alt=""></a></li>
+                            <li><a href="#"><img src="./images/tel_footer.svg" alt=""></a></li>
+                        </ul>
+                    </ul>
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    
+
+
+
+
+</html>
+
+

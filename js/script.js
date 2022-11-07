@@ -1,5 +1,38 @@
 $( document ).ready(function() {
 
+    $('#fiz_f').click(function(){
+        $('.modal_reg_form_1').addClass('d-none');
+        $('.modal_reg_form_2').removeClass('d-none');
+    })
+    $('#uri_f').click(function(){
+        $('.modal_reg_form_1').removeClass('d-none');
+        $('.modal_reg_form_2').addClass('d-none');
+    })
+
+    $('.ur_cont_item').click(function(){
+        $('.ur_cont_item').removeClass('ur_cont_active');
+        $(this).addClass('ur_cont_active');
+    });
+
+    $('.forget_pas').click(function(){
+        $('.modal_enter_foem_1').addClass('d-none');
+        $('.modal_enter_foem_2').removeClass('d-none');
+        $('.modal_enter_foem_2_p').removeClass('d-none');
+        $('.modal_enter_foem_1_prev').removeClass('d-none');
+        $('.modal_enter_foem_1_prev').addClass('d-flex');
+        $('.modal_enter_h').text('Восстановить пароль');
+    })
+
+    $('.modal_enter_foem_1_prev').click(function(){
+        $('.modal_enter_foem_1').removeClass('d-none');
+        $('.modal_enter_foem_2').addClass('d-none');
+        $('.modal_enter_foem_2_p').addClass('d-none');
+        $('.modal_enter_foem_1_prev').addClass('d-none');
+        $('.modal_enter_foem_1_prev').removeClass('d-flex');
+        $('.modal_enter_h').text('Вход на сайт');
+    })
+    
+
     $('.accordion-main-faq').click(function(){
         $(this).find('svg').toggleClass('rotate');
     })
