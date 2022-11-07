@@ -1305,3 +1305,40 @@ cursor: pointer;
   z-index: -1;
 }
 /* ACCORDION/////////////////// */
+
+
+.contacts_label{
+  padding: 6px 12px;
+  background: #EFF3F5;
+  border-radius: 24px;
+}
+
+.contacts_grid_1{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.map {
+  border-radius: 16px;
+  overflow: hidden;
+  margin:40px 0 96px;
+}
+.contacts_grid_2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.contacts_grid_2 .contacts_grid_2_li{
+  padding: 40px;
+  background: #EFF3F5;
+  border-radius: 16px;
+  height: 100%;
+}
+
+.contacts_grid_3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
