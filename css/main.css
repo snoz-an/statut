@@ -68,7 +68,9 @@ line-height: 19px;
   font-size: 16px;
 line-height: 19px;
 }
-
+.color_ABCFD5{
+  color: #ABCFD5;
+}
 .color_grey_BO{
     color: #9BA7B0;
 }
@@ -84,13 +86,15 @@ line-height: 19px;
 .page_nav{
   margin-bottom: 64px;
 }
-
+.w-180{
+  width: 180px;
+}
 .Primary1 {
   background: #BEE6ED;
   border-radius: 125px;
   padding: 16px 24px;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 18px;
   text-align: center;
   cursor: pointer;
@@ -924,6 +928,7 @@ margin: 0 12px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
+  position: relative;
 }
 
 .password_save_btn{
@@ -986,7 +991,9 @@ margin: 0 12px;
 
 
 
-
+.my_ul {
+  position: relative;
+}
 
 .my_ul_event .img_container{
   position: relative;
@@ -1151,4 +1158,38 @@ width: 100%;
 .order_item_text img{
   border-radius: 8px;
   width: 112px;
+}
+
+.members{
+  padding: 4px 12px;
+  background: #F1F5F8;
+  border-radius: 24px;
+  width: fit-content;
+}
+.group_list li{
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(2, 1fr);
+  border: 1px solid #E1E5E9;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 16px;
+}
+
+.group_list .arrow{
+  position: absolute;
+  right: 24px;
+  top: 31px;
+  transform: rotate(180deg);
+}
+
+.redact {
+  cursor: pointer;
+  width: fit-content;
+}
+
+.group_member_list{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
 }
