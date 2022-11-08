@@ -1,5 +1,4 @@
 $( document ).ready(function() {
-
     $('#fiz_f').click(function(){
         $('.modal_reg_form_1').addClass('d-none');
         $('.modal_reg_form_2').removeClass('d-none');

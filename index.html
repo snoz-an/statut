@@ -65,23 +65,30 @@
                 <div class="second_panel">
                     <ul class="logo_list d-flex align-items-center">
                         <li class="mr-5"><img src="./images/logo.svg" alt=""></li>
-                        <li class="mr-32"><a href="#" class="fw-500">Мероприятия</a></li>
-                        <li class="mr-32"><a href="#" class="fw-500">Видеокурсы</a></li>
-                        <li class="mr-32"><a href="#" class="fw-500">Лекторы</a></li>
-                        <li class="mr-32"><a href="#" class="fw-500">Контакты</a></li>
-                        <li><a href="#" class="fw-500">FAQ</a></li>
+                        <li class="mr-32 none"><a href="#" class="fw-500">Мероприятия</a></li>
+                        <li class="mr-32 none"><a href="#" class="fw-500">Видеокурсы</a></li>
+                        <li class="mr-32 none"><a href="#" class="fw-500">Лекторы</a></li>
+                        <li class="mr-32 none"><a href="#" class="fw-500">Контакты</a></li>
+                        <li class="none"><a href="#" class="fw-500">FAQ</a></li>
                     </ul>
-                    <ul class="logo_list_2 d-flex align-items-center">
+                    <ul class="logo_list_2 d-flex align-items-end">
                         <li class="d-flex align-items-center">
                             <div class="bag">
                                 <img src="./images/bag.svg" alt="">
                                 <div class="items_counter d-flex align-items-center">1</div>
                             </div>
-                            <a href="#" class="fs-md-16 fw-500 ml-3">Мои заказы</a>
+                            <a href="#" class="fs-md-16 fw-500 ml-3 header_item_none">Мои заказы</a>
                         </li>
                         <li class="d-flex align-items-center">
                             <img src="./images/cab.svg" alt="">
-                            <a href="#" class="fs-md-16 fw-500 ml-3">Мои заказы</a>
+                            <a href="#" class="fs-md-16 fw-500 ml-3 header_item_none">Личный кабинет</a>
+                        </li>
+                        <li class="d-none align-items-center burger noselect" data-toggle="modal" data-target="#modal_burger">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 4H23" stroke="#9BA7B0" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M1 12H23" stroke="#9BA7B0" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M1 20H23" stroke="#9BA7B0" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
                         </li>
                     </ul>
                 </div>
@@ -89,8 +96,75 @@
             </header>
 
         </div>
+
+
     </div>
 </div>
+
+<!-- Модальное окно -->
+<div class="modal fade" id="modal_burger" tabindex="-1" role="dialog" aria-labelledby="costumModalLabel" aria-hidden="true">
+    <div class="modal-dialog my-modal-dialog modal-dialog-start">
+    <div class="modal-content my-modal-content-header">
+        
+<div class="container mb-4">
+    <div class="d-flex justify-content-between">
+    <img class="logo_mob" src="./images/logo.svg" alt="">
+
+    <ul class="logo_list_2 d-flex align-items-end">
+        <li class="d-flex align-items-center">
+            <div class="bag">
+                <img src="./images/bag.svg" alt="">
+                <div class="items_counter d-flex align-items-center">1</div>
+            </div>
+            <a href="#" class="fs-md-16 fw-500 ml-3 header_item_none">Мои заказы</a>
+        </li>
+        <li class="d-flex align-items-center">
+            <img src="./images/cab.svg" alt="">
+            <a href="#" class="fs-md-16 fw-500 ml-3 header_item_none">Личный кабинет</a>
+        </li>
+        <svg class="close_burger_mob" data-dismiss="modal" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 2L14 14" stroke="#D6DCE1" stroke-width="2" stroke-linecap="round"/>
+            <path d="M2 14L14 2" stroke="#D6DCE1" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+    </ul>
+    </div>
+    </div>
+
+    <div class="burger_mob_line"></div>
+
+
+    <div class="container">
+
+        <ul class="">
+            <li class="mb-4"><a href="#" class="fw-500">Мероприятия</a></li>
+            <li class="mb-4"><a href="#" class="fw-500">Видеокурсы</a></li>
+            <li class="mb-4"><a href="#" class="fw-500">Лекторы</a></li>
+            <li class="mb-4"><a href="#" class="fw-500">Контакты</a></li>
+            <li class="mb-4"><a href="#" class="fw-500">FAQ</a></li>
+        </ul>
+
+        <ul class="header_socials d-flex mt-12">
+            <li><a href="#"><img src="./images/vk.svg" alt=""></a></li>
+            <li><a href="#"><img src="./images/youtube.svg" alt=""></a></li>
+            <li><a href="#"><img src="./images/telegram.svg" alt=""></a></li>
+        </ul>
+
+        <div class="mt-3"><a class="color_grey_BO fs-14" href="#">Сведения об образовательной организации</a></div>
+        <div class="mt-32 mb-3"><a class="color_grey_BO fs-14" href="#">Подписаться на рассылку</a></div>
+
+        <a class="fs-14 fw-500 color_grey_7E" href="#">+7 (499) 750-72-72</a>
+        <a class="fs-14 fw-500 color_grey_7E mt-3" href="#"> post@statut.ru</a>
+
+       
+
+        
+
+        </div>
+            
+    </div>
+    </div>
+</div>
+<!-- Модальное окно -->
 
 
 
@@ -450,40 +524,42 @@
 
     <footer>
         <div class="container">
-            <div class="d-flex">
-                <div class="first_column d-flex justify-content-between w-50">
-                    <div class="w-50"><img class="logo_footer" src="./images/logo_footer.svg" alt=""></div>
+            <div class="d-lg-flex d-block">
+                <div class="first_column d-lg-flex d-block justify-content-between">
+                    <div class="w-50 mb-lg-0 mb-4"><img class="logo_footer" src="./images/logo_footer.svg" alt=""></div>
                     <ul class="w-50 footer_menu">
-                        <li class="mb-md-3 mb-12"><a href="#" class="fs-md-16 fs-12">Мероприятия</a></li>
-                        <li class="mb-md-3 mb-12"><a href="#" class="fs-md-16 fs-12">Видеокурсы</a></li>
-                        <li class="mb-md-3 mb-12"><a href="#" class="fs-md-16 fs-12">Лекторы</a></li>
-                        <li class="mb-md-3 mb-12"><a href="#" class="fs-md-16 fs-12">Контакты</a></li>
-                        <li><a href="#" class="fs-md-16 fs-12">FAQ</a></li>
+                        <li class="mb-md-3 mb-12"><a href="#" class="fs-16">Мероприятия</a></li>
+                        <li class="mb-md-3 mb-12"><a href="#" class="fs-16">Видеокурсы</a></li>
+                        <li class="mb-md-3 mb-12"><a href="#" class="fs-16">Лекторы</a></li>
+                        <li class="mb-md-3 mb-12"><a href="#" class="fs-16">Контакты</a></li>
+                        <li><a href="#" class="fs-16">FAQ</a></li>
                     </ul>
                 </div>
 
-                <div class="second_column d-flex justify-content-between w-50">
-                    <ul class="w-50 footer_menu_2">
-                        <li class="fs-md-14 fs-12 mb-2 color_grey_A2">Связаться с нами</li>
+                <div class="second_column d-lg-flex d-block justify-content-between">
+                    <ul class="footer_menu_2">
+                        <li class="fs-14 mb-2 color_grey_A2">Связаться с нами</li>
                         <li class="fs-24 fw-500 mb-2"><a href="tel: +7 (499) 750-72-72">+7 (499) 750-72-72</a></li>
                         <li class="fs-md-18 fs-16 fw-500 mb-2"><a href="mail: statut.help@mail.ru">statut.help@mail.ru</a></li>
                     </ul>
 
                     <div class="w-50">
-                        <div class="fs-md-14 fs-12 mb-2 color_grey_A2">Мы в социальных сетях</div>
+                        <div class="fs-14 mb-2 color_grey_A2">Мы в социальных сетях</div>
                         <ul class="d-flex">
                             <li class="mr-2"><a href="#"><img src="./images/vk_footer.svg" alt=""></a></li>
                             <li class="mr-2"><a href="#"><img src="./images/you_tube_footer.svg" alt=""></a></li>
                             <li><a href="#"><img src="./images/tel_footer.svg" alt=""></a></li>
                         </ul>
-                    </ul>
-
-
-
-
-                </div>
+                    </div>
 
             </div>
+        </div>
+        <div class="d-lg-flex d-block justify-content-between footer_bottom">
+            <div class="d-lg-flex d-block">
+                <div class="mr-5 color_grey_50 mb-lg-0 mb-2">2022 © «Статут»</div>
+                <a href="#" class="color_grey_B5 mb-lg-0 mb-2" style="text-decoration: underline;">Политика конфиденциальности</a>
+            </div>
+            <div class="color_grey_50 mb-lg-0 mb-2">Сделано в Делаем</div>
         </div>
     </footer>
     

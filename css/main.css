@@ -35,6 +35,70 @@
 
 }
 
+@media screen and (max-width: 1200px) {
+  .header_socials li:last-child {
+    margin-left: 0px!important;
+}
+  .logo_list img{
+    width: 132px;
+  }
+  header .second_panel {
+    padding-top: 5px!important;
+}
+  .burger_mob_line{
+    width: 100%;
+    height: 1px;
+    background-color: #D6DCE1;
+    margin: 14px 0;
+  }
+  .close_burger_mob{
+    margin-left: 16px;
+    cursor: pointer;
+  }
+  .logo_mob{
+    width: 124px;
+  }
+  .logo_list .none{
+    display: none!important;
+  }
+  .burger{
+    display: flex!important;
+    margin-left: 24px;
+    cursor: pointer;
+  }
+.logo_list_2 li:first-child {
+  margin-right: 17px!important;
+}
+
+header .first_panel {
+  display: none!important;
+}
+.header_item_none{
+  display: none;
+}
+}
+
+@media screen and (max-width: 992px) {
+  .footer_bottom{
+    margin-top: 50px!important;
+  }
+  footer .second_column {
+    width: 100%!important;
+}
+  .footer_menu_2{
+    width: 100%!important;
+    margin: 24px 0;
+  }
+  footer .first_column {
+    width: 100%!important;
+  }
+}
+.footer_menu_2{
+  width: 50%;
+}
+.footer_bottom{
+  margin-top: 65px;
+}
 ul{
     list-style-type: none;
     padding: 0;
@@ -96,6 +160,12 @@ line-height: 19px;
 }
 .color_grey_B1{
   color: #B1B1B1;
+}
+.color_grey_50{
+  color: #505050
+}
+.color_grey_B5{
+  color: #B5B5B5
 }
 .page_nav{
   margin-bottom: 64px;
@@ -187,7 +257,21 @@ transition: .3s;
 }
 
 /* modals */
-
+.my-modal-content-header{
+  padding-top: 14px;
+}
+#modal_burger .modal-dialog{
+    margin: 0;
+    min-width: 100%;
+    padding: 0;
+}
+#modal_burger{
+  padding: 0!important;
+  background-color: white;
+}
+.my-modal-content-header{
+border: none!important;
+}
 .my-modal-content{
 padding: 48px;
 position: relative;
@@ -300,7 +384,7 @@ margin-top: 16px;
     top: 0;
     justify-content: center;
     width: 100%;
-    z-index: 2;
+    z-index: 4;
     padding: 9.5px 0 16px;
     border-bottom: 1px solid #E1E5E9;
     background: white;
@@ -374,6 +458,13 @@ footer{
 .footer_menu{
 
 }
+footer .first_column {
+  width: 50%;
+}
+footer .second_column {
+  width: 50%;
+}
+
 
 /* footer */
 
