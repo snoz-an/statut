@@ -1,4 +1,63 @@
 $(document).ready(function(){
+  $('#slider-main-videocurces').slick({
+    infinite: true,
+    dots: false,
+    slidesToShow: 3,
+
+    slidesToScroll: 1,
+    // dotsClass: 'slick-dots slick-dots-partners',
+    arrow: false,
+    // centerMode: true,
+    prevArrow: $('.slider-partnerss-prev'),
+    nextArrow: $('.slider-partnerss-next'),
+    responsive: [
+      
+        {
+          breakpoint: 1000,
+          settings: {
+            slidesToShow: 2,
+            
+          }
+        },
+        
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+          }
+        }
+    ]
+  });
+
+  $('#slider-main-events').slick({
+    infinite: true,
+    dots: false,
+    slidesToShow: 3,
+
+    slidesToScroll: 1,
+    // dotsClass: 'slick-dots slick-dots-partners',
+    arrow: false,
+    // centerMode: true,
+    prevArrow: $('.slider-partnerss-prev'),
+    nextArrow: $('.slider-partnerss-next'),
+    responsive: [
+      
+        {
+          breakpoint: 1000,
+          settings: {
+            slidesToShow: 2,
+            
+          }
+        },
+        
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+          }
+        }
+    ]
+  });
 
   var $st_2 = $('.pagination_2');
 var $slickEl_2 = $('#slider-order');
@@ -100,9 +159,9 @@ $('#slider-order').slick({
             },
             
             {
-              breakpoint: 573,
+              breakpoint: 768,
               settings: {
-                slidesToShow: 3,
+                slidesToShow: 2,
               }
             }
         ]

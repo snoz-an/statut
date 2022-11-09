@@ -82,6 +82,12 @@ header .first_panel {
 }
 
 @media screen and (max-width: 992px) {
+  .my_96_pt {
+    padding-top: 40px!important;
+}
+  body {
+    margin-top: 100px!important;
+}
   .progress_line_container_mob{
     position: absolute;
     display: flex;
@@ -139,6 +145,56 @@ header .first_panel {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .main_slider_container{
+    overflow: hidden;
+  }
+  .main_feedback_container .p {
+    width: 100%!important;
+}
+  .main_feedback_inputs_ul {
+    grid-template-columns: repeat(1, 1fr)!important;
+    gap: 16px!important;
+}
+  .main_feedback_container .h {
+    width: 100%!important;
+}
+  .main_feedback_container {
+    padding: 20px!important;
+    grid-template-columns: repeat(1, 1fr)!important;
+    gap: 16px!important;
+}
+  .new_back_container {
+    padding: 40px 0!important;
+}
+  #slider-partners .slick-list {
+    padding: 0 20% 0 0;
+  }
+  .card_partners {
+    margin: 0 6px!important;
+    padding: 27px 32px!important;
+}
+
+  #slider-main-events .slick-list {
+    padding: 0 20% 0 0;
+  }
+  .videocources_list .slick-list {
+    padding: 0 20% 0 0;
+  }
+  .videocources_list{
+    margin: 0 -6px!important;
+  }
+  .videocources_list li{
+    margin: 0 6px!important;
+  }
+  #slider-main-events{
+    margin: 0 -6px!important;
+  }
+  #slider-main-events li{
+    margin: 0 6px!important;
+    padding: 16px!important;
+  }
+}
 .pagination {
   white-space: nowrap;
 }
@@ -546,7 +602,24 @@ footer .second_column {
     object-fit: cover;
     object-position: left;
 }
-
+#slider-main-events{
+  margin: 0 -12px;
+}
+#slider-main-events .slick-track{
+  display: flex;
+}
+.cost_container {
+  white-space: nowrap;
+}
+#slider-main-events li{
+  margin: 0 12px;
+  border: 1px solid #E1E5E9;
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .slider-main{
   margin: 0 -27px;
@@ -687,20 +760,21 @@ width: 100%;
 
 
 /* //videocources/////////////////////////////////////// */
-
-
 .videocources_list{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+  margin: 0 -12px;
+}
+
+.videocources_list .slick-track{
+display: flex;
 }
 .videocources_list li{
   border: 1px solid #E1E5E9;
   border-radius: 16px;
   height: 100%;
-  display: flex;
+  display: flex!important;
   flex-direction: column;
   justify-content: space-between;
+  margin: 0 12px;
 }
 .videocources_list img{
   border-radius: 16px;
