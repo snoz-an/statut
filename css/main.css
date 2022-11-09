@@ -36,6 +36,14 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .events_cards .second_column {
+    width: 100%!important;
+    border-top: 1px solid #E1E5E9;
+    padding-left: 0!important;
+    border-left: none!important;
+    padding-top: 16px;
+    margin-top: 16px;
+}
   .progressBarContainer {
     margin-right: 42px;
 }
@@ -146,6 +154,34 @@ header .first_panel {
 }
 
 @media screen and (max-width: 768px) {
+  .modal-dialog-filter{
+    max-width: 100%!important;
+  }
+  /* .events_filter_container_none{
+    display: none!important;
+  } */
+  #modal_filter .dawnload_btn {
+width: fit-content;
+  }
+  #modal_filter .format_btn {
+    padding: 10px 20px!important;
+}
+  .page_nav {
+    margin-bottom: 24px!important;
+}
+  .events_cards .first_column {
+    width: 100%!important;
+}
+  .events_cards li {
+    padding: 16px!important;
+    display: block!important;
+}
+  .filters_mob{
+    display: flex!important;
+  }
+  .events_filter_container{
+    display: none!important;
+  }
   .main_slider_container{
     overflow: hidden;
   }
@@ -304,7 +340,15 @@ text-align: center;
 cursor: pointer;
 transition: .3s;
 }
-
+.filters_mob{
+  display: none;
+  padding: 12px 0;
+  border: 1px solid #E1E5E9;
+  border-radius: 125px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
 .Primary2:hover{
   background: #ABCFD5;
 }
@@ -846,6 +890,22 @@ min-height: 127px;
 
 
 /* /  events_page//////////////////////////////////////////////////////// */
+#modal_filter .modal-content {
+border: none!important;
+}
+#modal_filter .line{
+  width: 100%;
+  height: 1px;
+  background-color: #D6DCE1;
+}
+.filter_close{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+#modal_filter{
+  background-color: white;
+}
 .events_filter_container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -877,6 +937,11 @@ border: 1px solid #E1E5E9;
 border-radius: 16px;
 padding: 32px;
 height: 100%;
+display: flex;
+justify-content: space-between;
+}
+.events_cards .cost{
+  white-space: nowrap;
 }
 
 .events_cards .first_column{

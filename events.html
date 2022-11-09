@@ -32,7 +32,7 @@
    <script src="./js/quiz.js"></script>
    <script src="./js/logo.js"></script>
    
-   <title>Фреш - сервис-онлайн подбора плана питания</title>
+   <title>STATUT</title>
 
 <!-- Yandex.Metrika counter -->
 <!-- /Yandex.Metrika counter -->
@@ -63,23 +63,30 @@
                 <div class="second_panel">
                     <ul class="logo_list d-flex align-items-center">
                         <li class="mr-5"><img src="./images/logo.svg" alt=""></li>
-                        <li class="mr-32"><a href="#" class="fw-500">Мероприятия</a></li>
-                        <li class="mr-32"><a href="#" class="fw-500">Видеокурсы</a></li>
-                        <li class="mr-32"><a href="#" class="fw-500">Лекторы</a></li>
-                        <li class="mr-32"><a href="#" class="fw-500">Контакты</a></li>
-                        <li><a href="#" class="fw-500">FAQ</a></li>
+                        <li class="mr-32 none"><a href="#" class="fw-500">Мероприятия</a></li>
+                        <li class="mr-32 none"><a href="#" class="fw-500">Видеокурсы</a></li>
+                        <li class="mr-32 none"><a href="#" class="fw-500">Лекторы</a></li>
+                        <li class="mr-32 none"><a href="#" class="fw-500">Контакты</a></li>
+                        <li class="none"><a href="#" class="fw-500">FAQ</a></li>
                     </ul>
-                    <ul class="logo_list_2 d-flex align-items-center">
+                    <ul class="logo_list_2 d-flex align-items-end">
                         <li class="d-flex align-items-center">
                             <div class="bag">
                                 <img src="./images/bag.svg" alt="">
                                 <div class="items_counter d-flex align-items-center">1</div>
                             </div>
-                            <a href="#" class="fs-md-16 fw-500 ml-3">Мои заказы</a>
+                            <a href="#" class="fs-md-16 fw-500 ml-3 header_item_none">Мои заказы</a>
                         </li>
                         <li class="d-flex align-items-center">
                             <img src="./images/cab.svg" alt="">
-                            <a href="#" class="fs-md-16 fw-500 ml-3">Мои заказы</a>
+                            <a href="#" class="fs-md-16 fw-500 ml-3 header_item_none">Личный кабинет</a>
+                        </li>
+                        <li class="d-none align-items-center burger noselect" data-toggle="modal" data-target="#modal_burger">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 4H23" stroke="#9BA7B0" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M1 12H23" stroke="#9BA7B0" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M1 20H23" stroke="#9BA7B0" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
                         </li>
                     </ul>
                 </div>
@@ -87,8 +94,75 @@
             </header>
 
         </div>
+
+
     </div>
 </div>
+
+<!-- Модальное окно -->
+<div class="modal fade" id="modal_burger" tabindex="-1" role="dialog" aria-labelledby="costumModalLabel" aria-hidden="true">
+    <div class="modal-dialog my-modal-dialog modal-dialog-start">
+    <div class="modal-content my-modal-content-header">
+        
+<div class="container mb-4">
+    <div class="d-flex justify-content-between">
+    <img class="logo_mob" src="./images/logo.svg" alt="">
+
+    <ul class="logo_list_2 d-flex align-items-end">
+        <li class="d-flex align-items-center">
+            <div class="bag">
+                <img src="./images/bag.svg" alt="">
+                <div class="items_counter d-flex align-items-center">1</div>
+            </div>
+            <a href="#" class="fs-md-16 fw-500 ml-3 header_item_none">Мои заказы</a>
+        </li>
+        <li class="d-flex align-items-center">
+            <img src="./images/cab.svg" alt="">
+            <a href="#" class="fs-md-16 fw-500 ml-3 header_item_none">Личный кабинет</a>
+        </li>
+        <svg class="close_burger_mob" data-dismiss="modal" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 2L14 14" stroke="#D6DCE1" stroke-width="2" stroke-linecap="round"/>
+            <path d="M2 14L14 2" stroke="#D6DCE1" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+    </ul>
+    </div>
+    </div>
+
+    <div class="burger_mob_line"></div>
+
+
+    <div class="container">
+
+        <ul class="">
+            <li class="mb-4"><a href="#" class="fw-500">Мероприятия</a></li>
+            <li class="mb-4"><a href="#" class="fw-500">Видеокурсы</a></li>
+            <li class="mb-4"><a href="#" class="fw-500">Лекторы</a></li>
+            <li class="mb-4"><a href="#" class="fw-500">Контакты</a></li>
+            <li class="mb-4"><a href="#" class="fw-500">FAQ</a></li>
+        </ul>
+
+        <ul class="header_socials d-flex mt-12">
+            <li><a href="#"><img src="./images/vk.svg" alt=""></a></li>
+            <li><a href="#"><img src="./images/youtube.svg" alt=""></a></li>
+            <li><a href="#"><img src="./images/telegram.svg" alt=""></a></li>
+        </ul>
+
+        <div class="mt-3"><a class="color_grey_BO fs-14" href="#">Сведения об образовательной организации</a></div>
+        <div class="mt-32 mb-3"><a class="color_grey_BO fs-14" href="#">Подписаться на рассылку</a></div>
+
+        <div><a class="fs-14 fw-500 color_grey_7E" href="#">+7 (499) 750-72-72</a></div>
+        <div class="mt-3"><a class="fs-14 fw-500 color_grey_7E mt-3" href="#"> post@statut.ru</a></div>
+
+       
+
+        
+
+        </div>
+            
+    </div>
+    </div>
+</div>
+<!-- Модальное окно -->
 
 
 
@@ -102,6 +176,90 @@
 
 
             <div class="fs-md-56 fs-32 fw-500 mb-4">Мероприятия</div>
+
+            <div class="filters_mob" data-toggle="modal" data-target="#modal_filter">
+                <div class="mr-2">Фильтры</div>
+                    <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1081_26577)">
+                        <path d="M1.5 4H15.5" stroke="black" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M1.5 12H15.5" stroke="black" stroke-width="2" stroke-linecap="round"/>
+                        <circle cx="11.5" cy="4" r="2" fill="white" stroke="black" stroke-width="2"/>
+                        <circle cx="5.5" cy="12" r="2" fill="white" stroke="black" stroke-width="2"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_1081_26577">
+                        <rect width="16" height="16" fill="white" transform="translate(0.5)"/>
+                        </clipPath>
+                        </defs>
+                    </svg>
+            </div>
+
+            <!-- Модальное окно -->
+                <div class="modal fade p-0" id="modal_filter" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-filter modal-dialog-start m-0">
+                    <div class="modal-content">
+                        <div class="p-3">
+                            <div class="d-flex justify-content-between">
+                                <div class="fs-14 fw-500">Фильтры</div> 
+                                <svg data-dismiss="modal" class="filter_close" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4 4L20 20" stroke="#9BA7B0" stroke-width="2" stroke-linecap="round"/>
+                                    <path d="M4 20L20 4" stroke="#9BA7B0" stroke-width="2" stroke-linecap="round"/>
+                                </svg>        
+                            </div>
+
+                                  
+                        </div>
+
+                        <div class="line mb-4"></div>
+                
+                        <div class="container">
+                        <ul class="">
+                            <li class="mb-3">
+                               <div class="fs-14 mb-1 color_grey_7E">Ключевые слова</div>
+                               <div class="my_input d-flex align-items-center justify-content-between" style="color: #D6DCE1">Все направления
+                                <svg style="transform: rotate(270deg);" width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.5 1L1.5 7L7.5 13" stroke="#73797E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                               </div>
+                            </li>
+                            <li class="mb-3">
+                                <div class="fs-14 mb-1 color_grey_7E">Направление</div>
+                                <div class="my_input d-flex align-items-center justify-content-between" style="color: #D6DCE1">Все направления
+                                 <svg style="transform: rotate(270deg);" width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <path d="M7.5 1L1.5 7L7.5 13" stroke="#73797E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                 </svg>
+                                </div>
+                             </li>
+                             <li class="mb-3">
+                                <div class="fs-14 mb-1 color_grey_7E">Лекторы</div>
+                                <div class="my_input d-flex align-items-center justify-content-between" style="color: #D6DCE1">Все Лекторы
+                                 <svg style="transform: rotate(270deg);" width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <path d="M7.5 1L1.5 7L7.5 13" stroke="#73797E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                 </svg>
+                                </div>
+                             </li>
+                           
+                        </ul>
+
+                        <div class="d-flex mt-4">
+                            <div class="format_btn format_btn_active fs-md-16 fs-14 mr-2 noselect">Онлайн обучение</div>
+                            <div class="format_btn fs-md-16 fs-14 noselect">Очное обучение</div>
+                        </div>
+                        <div class="dawnload_btn d-flex align-items-center noselect mt-3">
+                            <svg class="mr-1" width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.33366 0.333008H2.00033C1.26699 0.333008 0.673659 0.933008 0.673659 1.66634L0.666992 12.333C0.666992 13.0663 1.26033 13.6663 1.99366 13.6663H10.0003C10.7337 13.6663 11.3337 13.0663 11.3337 12.333V4.33301L7.33366 0.333008ZM8.66699 10.9997H3.33366V9.66634H8.66699V10.9997ZM8.66699 8.33301H3.33366V6.99967H8.66699V8.33301ZM6.66699 4.99967V1.33301L10.3337 4.99967H6.66699Z" fill="#33A2B6"></path>
+                            </svg>
+                            <div class="fs-md-14 fs-12 fw-500">
+                                Скачать учебный план
+                            </div>
+                        </div>
+
+                        </div>
+               
+                    </div>
+                    </div>
+                </div>
+                <!-- Модальное окно -->
 
             <ul class="events_filter_container mb-4">
                 <li>
@@ -132,7 +290,7 @@
             </ul>
 
 
-            <div class="d-flex justify-content-between align-items-end">
+            <div class="d-md-flex d-none justify-content-between align-items-end">
                 <div class="d-flex mt-4">
                     <div class="format_btn fs-md-16 fs-14 mr-2 noselect">Онлайн обучение</div>
                     <div class="format_btn fs-md-16 fs-14 noselect">Очное обучение</div>
@@ -152,7 +310,7 @@
 
             <ul class="events_cards">
                 <a href="#">
-                <li class="d-flex justify-content-between mb-12">
+                <li class="mb-12">
                     <div class="first_column">
                         <div class="d-flex mb-12">
                             <svg class="mr-2" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -170,12 +328,12 @@
                     <div class="second_column">
                         <div class="cost d-flex justify-content-between">
                             <div class="">
-                                <div class="fs-md-14 fs-12 color_grey_BO">Очное</div>
-                                <div class="fs-md-20 fs-16 fw-500">34 500 ₽</div>
+                                <div class="fs-md-14 fs-14 color_grey_BO">Очное</div>
+                                <div class="fs-md-20 fs-18 fw-500">34 500 ₽</div>
                             </div>
                             <div class="">
-                                <div class="fs-md-14 fs-12 color_grey_BO">Очное</div>
-                                <div class="fs-md-20 fs-16 fw-500">34 500 ₽</div>
+                                <div class="fs-md-14 fs-14 color_grey_BO">Очное</div>
+                                <div class="fs-md-20 fs-18 fw-500">34 500 ₽</div>
                             </div>
                         </div>
                         <div class="Primary2 mt-md-3 mt-2">Стать участником</div>
@@ -185,7 +343,7 @@
                 </a>
 
                 <a href="#">
-                    <li class="d-flex justify-content-between mb-12">
+                    <li class="mb-12">
                         <div class="first_column">
                             <div class="d-flex mb-12">
                                 <svg class="mr-2" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -203,12 +361,12 @@
                         <div class="second_column">
                             <div class="cost d-flex justify-content-between">
                                 <div class="">
-                                    <div class="fs-md-14 fs-12 color_grey_BO">Очное</div>
-                                    <div class="fs-md-20 fs-16 fw-500">34 500 ₽</div>
+                                    <div class="fs-md-14 fs-14 color_grey_BO">Очное</div>
+                                    <div class="fs-md-20 fs-18 fw-500">34 500 ₽</div>
                                 </div>
                                 <div class="">
-                                    <div class="fs-md-14 fs-12 color_grey_BO">Очное</div>
-                                    <div class="fs-md-20 fs-16 fw-500">34 500 ₽</div>
+                                    <div class="fs-md-14 fs-14 color_grey_BO">Очное</div>
+                                    <div class="fs-md-20 fs-18 fw-500">34 500 ₽</div>
                                 </div>
                             </div>
                             <div class="Primary2 mt-md-3 mt-2">Стать участником</div>
@@ -218,7 +376,7 @@
                     </a>
 
                     <a href="#">
-                        <li class="d-flex justify-content-between mb-12">
+                        <li class="mb-12">
                             <div class="first_column">
                                 <div class="d-flex mb-12">
                                     <svg class="mr-2" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -247,12 +405,12 @@
                             <div class="second_column">
                                 <div class="cost d-flex justify-content-between">
                                     <div class="">
-                                        <div class="fs-md-14 fs-12 color_grey_BO">Очное</div>
-                                        <div class="fs-md-20 fs-16 fw-500">34 500 ₽</div>
+                                        <div class="fs-md-14 fs-14 color_grey_BO">Очное</div>
+                                        <div class="fs-md-20 fs-18 fw-500">34 500 ₽</div>
                                     </div>
                                     <div class="">
-                                        <div class="fs-md-14 fs-12 color_grey_BO">Очное</div>
-                                        <div class="fs-md-20 fs-16 fw-500">34 500 ₽</div>
+                                        <div class="fs-md-14 fs-14 color_grey_BO">Очное</div>
+                                        <div class="fs-md-20 fs-18 fw-500">34 500 ₽</div>
                                     </div>
                                 </div>
                                 <div class="Primary2 mt-md-3 mt-2">Стать участником</div>
@@ -297,40 +455,42 @@
 
     <footer>
         <div class="container">
-            <div class="d-flex">
-                <div class="first_column d-flex justify-content-between w-50">
-                    <div class="w-50"><img class="logo_footer" src="./images/logo_footer.svg" alt=""></div>
+            <div class="d-lg-flex d-block">
+                <div class="first_column d-lg-flex d-block justify-content-between">
+                    <div class="w-50 mb-lg-0 mb-4"><img class="logo_footer" src="./images/logo_footer.svg" alt=""></div>
                     <ul class="w-50 footer_menu">
-                        <li class="mb-md-3 mb-12"><a href="#" class="fs-md-16 fs-12">Мероприятия</a></li>
-                        <li class="mb-md-3 mb-12"><a href="#" class="fs-md-16 fs-12">Видеокурсы</a></li>
-                        <li class="mb-md-3 mb-12"><a href="#" class="fs-md-16 fs-12">Лекторы</a></li>
-                        <li class="mb-md-3 mb-12"><a href="#" class="fs-md-16 fs-12">Контакты</a></li>
-                        <li><a href="#" class="fs-md-16 fs-12">FAQ</a></li>
+                        <li class="mb-md-3 mb-12"><a href="#" class="fs-16">Мероприятия</a></li>
+                        <li class="mb-md-3 mb-12"><a href="#" class="fs-16">Видеокурсы</a></li>
+                        <li class="mb-md-3 mb-12"><a href="#" class="fs-16">Лекторы</a></li>
+                        <li class="mb-md-3 mb-12"><a href="#" class="fs-16">Контакты</a></li>
+                        <li><a href="#" class="fs-16">FAQ</a></li>
                     </ul>
                 </div>
 
-                <div class="second_column d-flex justify-content-between w-50">
-                    <ul class="w-50 footer_menu_2">
-                        <li class="fs-md-14 fs-12 mb-2 color_grey_A2">Связаться с нами</li>
+                <div class="second_column d-lg-flex d-block justify-content-between">
+                    <ul class="footer_menu_2">
+                        <li class="fs-14 mb-2 color_grey_A2">Связаться с нами</li>
                         <li class="fs-24 fw-500 mb-2"><a href="tel: +7 (499) 750-72-72">+7 (499) 750-72-72</a></li>
                         <li class="fs-md-18 fs-16 fw-500 mb-2"><a href="mail: statut.help@mail.ru">statut.help@mail.ru</a></li>
                     </ul>
 
                     <div class="w-50">
-                        <div class="fs-md-14 fs-12 mb-2 color_grey_A2">Мы в социальных сетях</div>
+                        <div class="fs-14 mb-2 color_grey_A2">Мы в социальных сетях</div>
                         <ul class="d-flex">
                             <li class="mr-2"><a href="#"><img src="./images/vk_footer.svg" alt=""></a></li>
                             <li class="mr-2"><a href="#"><img src="./images/you_tube_footer.svg" alt=""></a></li>
                             <li><a href="#"><img src="./images/tel_footer.svg" alt=""></a></li>
                         </ul>
-                    </ul>
-
-
-
-
-                </div>
+                    </div>
 
             </div>
+        </div>
+        <div class="d-lg-flex d-block justify-content-between footer_bottom">
+            <div class="d-lg-flex d-block">
+                <div class="mr-5 color_grey_50 mb-lg-0 mb-2">2022 © «Статут»</div>
+                <a href="#" class="color_grey_B5 mb-lg-0 mb-2" style="text-decoration: underline;">Политика конфиденциальности</a>
+            </div>
+            <div class="color_grey_50 mb-lg-0 mb-2">Сделано в Делаем</div>
         </div>
     </footer>
     
