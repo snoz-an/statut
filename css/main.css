@@ -36,6 +36,9 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .progressBarContainer {
+    margin-right: 42px;
+}
   .header_socials li:last-child {
     margin-left: 0px!important;
 }
@@ -79,6 +82,48 @@ header .first_panel {
 }
 
 @media screen and (max-width: 992px) {
+  .progress_line_container_mob{
+    position: absolute;
+    display: flex;
+    z-index: 4;
+    bottom: 14px;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 94%;
+  }
+  .btns_container_main {
+    position: relative!important;
+    bottom: auto!important;
+    right: auto!important;
+}
+  .progressBarContainer {
+    position: relative!important;
+    bottom: auto!important;
+    right: auto!important;
+    max-width: 179px!important;
+}
+  .more_btn_slider {
+    position: relative!important;
+    bottom: auto!important;
+    left: 20px!important;
+    width: 94%!important;
+    margin-top: 20px;
+}
+  .my_card {
+    min-height: 460px!important;
+    display: flex!important;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 83px;
+    padding-right: 20px
+}
+  .my_card .h {
+    font-size: 36px!important;
+    line-height: 45px!important;
+    padding-top: 20px!important;
+    padding-left: 20px!important;
+}
   .footer_bottom{
     margin-top: 50px!important;
   }
@@ -93,6 +138,11 @@ header .first_panel {
     width: 100%!important;
   }
 }
+
+.pagination {
+  white-space: nowrap;
+}
+
 .footer_menu_2{
   width: 50%;
 }

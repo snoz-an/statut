@@ -132,23 +132,7 @@ $slickEl.on('init reInit afterChange', function (event, slick, currentSlide, nex
       // centerMode: true,
       prevArrow: $('.slider-main-prev'),
       nextArrow: $('.slider-main-next'),
-      responsive: [
-        
-          {
-            breakpoint: 1000,
-            settings: {
-              slidesToShow: 3,
-              
-            }
-          },
-          
-          {
-            breakpoint: 573,
-            settings: {
-              slidesToShow: 2,
-            }
-          }
-      ]
+      
     });
     
 
