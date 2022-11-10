@@ -36,6 +36,29 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .cab_item_link_mob{
+    padding: 8px 12px;
+  }
+  .cab_item_link_active {
+    width: 100%!important;
+}
+  .svedeniya_container_no_gap{
+gap: 0!important;
+  }
+  .modal-dialog-cab {
+    min-width: 100%!important;
+    margin: 0;
+}
+  .svedeniya_container .second_column {
+    width: 100%!important;
+}
+  .svedeniya_container .first_column {
+    width: auto!important;
+}
+  .left_menu_none {
+    opacity: 0;
+    visibility: hidden;
+}
   .videocources_list_grid{
     grid-template-columns: repeat(2, 1fr)!important;
   }
@@ -185,6 +208,41 @@ header .first_panel {
 }
 
 @media screen and (max-width: 768px) {
+ 
+  #videocources_list_slider .slick-list {
+    padding: 0 20% 0 0;
+}
+  .videocources_list_slider .pad {
+    padding: 0 12px!important;
+}
+  .videocources_list_slider li {
+    margin: 0 6px!important;
+}
+  #events_list_slider .slick-list {
+    padding: 0 20% 0 0;
+}
+  .events_list_slider li {
+    padding: 16px!important;
+    margin: 0 6px!important;
+}
+  .grey_line_text {
+    padding-top: 20px!important;
+    margin-top: 20px!important;
+}
+  .lector_img {
+    width: 124px!important;
+  }
+  .close_modal {
+    top: 20px!important;
+    right: 20px!important;
+}
+  .my-modal-content {
+    padding: 20px!important;
+}
+  .my-modal-dialog {
+    min-width: 96%!important;
+    margin: 0 16px!important;
+}
   .event_container .media_list{
     grid-template-columns: repeat(1, 1fr)!important;
     gap: 16px!important;
@@ -319,6 +377,10 @@ body{
 .img_container_mob {
   display: none;
 }
+#modal_cab {
+  padding: 0!important;
+  background-color: white;
+}
 .my_input{
     background: #F4F8FB;
     border-radius: 8px;
@@ -374,6 +436,9 @@ line-height: 19px;
 }
 .w-180{
   width: 180px;
+}
+#events_list_slider .cost_container {
+  white-space: nowrap;
 }
 .Primary1 {
   background: #BEE6ED;
@@ -792,7 +857,9 @@ line-height: 80px;
 padding-top: 65px;
 padding-left: 64px;
 }
-
+.lector_img {
+  width: 100%;
+}
 .inProgress{
   background-color: white;
   height: 2px;
@@ -1137,7 +1204,7 @@ width: 100%;
   cursor: pointer;
 }
 
-.svedeniya_container .cab_item_link_active{
+.cab_item_link_active{
   background: #F4F8FB;
   color: #000000;
   border-radius: 8px;
@@ -1149,14 +1216,15 @@ width: 100%;
   top: 160px;
 }
 .position_sticky_cab .cab_item_link{
-  background: white;
+  /* background: white; */
   border-radius: 8px;
   padding: 8px 12px;
   color: #9BA7B0;
   cursor: pointer;
   width: 23%;
 }
-.position_sticky_cab .cab_item_link_active{
+
+.cab_item_link_active{
   background: #F4F8FB;
   color: #000000;
   border-radius: 8px;

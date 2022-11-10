@@ -1,4 +1,13 @@
 $( document ).ready(function() {
+    $('.cab_item_link_mob').click(function(){
+        setTimeout(function(){
+            $('#modal_cab').modal('hide');
+        }, 500)
+        
+    })
+    $('#cab_icon_in_burger').click(function(){
+        $('#modal_burger').modal('hide');
+    })
     $('#fiz_f').click(function(){
         $('.modal_reg_form_1').addClass('d-none');
         $('.modal_reg_form_2').removeClass('d-none');

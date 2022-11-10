@@ -103,10 +103,17 @@ $('#slider-order').slick({
     nextArrow: $('.videocources_list_slider-next'),
     responsive: [
         
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+        
         {
-          breakpoint: 573,
+          breakpoint: 768,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 1,
           }
         }
     ]
@@ -126,11 +133,17 @@ $('#slider-order').slick({
     prevArrow: $('.events_list_slider-prev'),
     nextArrow: $('.events_list_slider-next'),
     responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
         
         {
-          breakpoint: 573,
+          breakpoint: 768,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 1,
           }
         }
     ]
