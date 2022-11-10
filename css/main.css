@@ -36,6 +36,18 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .cab_item_link_no_cab {
+color: #9BA7B0;
+  }
+  .cab_item_link_no_cab{
+    padding: 8px 12px;
+  }
+  .svedeniya_container_not_cab .second_column {
+    margin-top: auto!important;
+}
+  .svedeniya_container_not_cab{
+gap: 0!important;
+  }
   .cab_item_link_mob{
     padding: 8px 12px;
   }
@@ -208,6 +220,9 @@ header .first_panel {
 }
 
 @media screen and (max-width: 768px) {
+  .file_card_list {
+    grid-template-columns: repeat(1, 1fr)!important;
+}
  
   #videocources_list_slider .slick-list {
     padding: 0 20% 0 0;
@@ -1206,7 +1221,7 @@ width: 100%;
 
 .cab_item_link_active{
   background: #F4F8FB;
-  color: #000000;
+  color: #000000!important;
   border-radius: 8px;
   padding: 8px 12px;
   font-weight: 500;
