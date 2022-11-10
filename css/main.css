@@ -244,9 +244,30 @@ header .first_panel {
 }
 
 @media screen and (max-width: 768px) {
-  .faq_body_height{
-
-  }
+  .cab_event_my_ul-3-list {
+    grid-template-columns: repeat(1, 1fr)!important;
+}
+  .my_ul_event .img_container {
+    min-height: 360px!important;
+}
+  .my_ul_event .img_container .p {
+    padding-left: 20px!important;
+}
+  .my_ul_event .img_container .h {
+    padding: 12px 20px 12px 20px!important;
+}
+  .my_ul_event .img_container .labels {
+    padding: 20px 20px 0 20px!important;
+}
+  .events_list_pers_cab {
+    gap: 16px!important;
+}
+  .events_list_pers_cab .data_list {
+    grid-template-columns: repeat(2, 1fr)!important;
+}
+  .events_list_pers_cab .events_list_pers_cab_li {
+    padding: 16px!important;
+}
   .file_card_list {
     grid-template-columns: repeat(1, 1fr)!important;
 }
