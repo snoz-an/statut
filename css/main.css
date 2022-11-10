@@ -36,6 +36,9 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .videocources_list_grid{
+    grid-template-columns: repeat(2, 1fr)!important;
+  }
   .lectors_list {
     grid-template-columns: repeat(2, 1fr)!important;
 }
@@ -157,6 +160,13 @@ header .first_panel {
 }
 
 @media screen and (max-width: 768px) {
+  .videocources_filter_container {
+    display: none!important;
+  }
+  .videocources_list_grid{
+    grid-template-columns: repeat(1, 1fr)!important;
+    row-gap: 16px!important;
+  }
   .alphavit {
     margin-bottom: 32px!important;
 }
@@ -172,10 +182,10 @@ header .first_panel {
   /* .events_filter_container_none{
     display: none!important;
   } */
-  #modal_filter .dawnload_btn {
+  .modal_filter .dawnload_btn {
 width: fit-content;
   }
-  #modal_filter .format_btn {
+  .modal_filter .format_btn {
     padding: 10px 20px!important;
 }
   .page_nav {
@@ -484,7 +494,11 @@ grid-template-columns: repeat(2, 1fr);
 gap: 16px;
 margin-top: 16px;
 }
-
+.videocources_list_grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 24px;
+}
 /* modals */
 
 /* /////////////////////////*CHECKBOX */
@@ -902,10 +916,10 @@ min-height: 127px;
 
 
 /* /  events_page//////////////////////////////////////////////////////// */
-#modal_filter .modal-content {
+.modal_filter .modal-content {
 border: none!important;
 }
-#modal_filter .line{
+.modal_filter .line{
   width: 100%;
   height: 1px;
   background-color: #D6DCE1;
@@ -915,7 +929,7 @@ border: none!important;
   top: 16px;
   right: 16px;
 }
-#modal_filter{
+.modal_filter{
   background-color: white;
 }
 .events_filter_container{
