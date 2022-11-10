@@ -36,6 +36,9 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .lectors_list {
+    grid-template-columns: repeat(2, 1fr)!important;
+}
   .events_cards .second_column {
     width: 100%!important;
     border-top: 1px solid #E1E5E9;
@@ -154,6 +157,15 @@ header .first_panel {
 }
 
 @media screen and (max-width: 768px) {
+  .alphavit {
+    margin-bottom: 32px!important;
+}
+  .lectors_list li {
+    padding: 16px!important;
+}
+  .lectors_list {
+    grid-template-columns: repeat(1, 1fr)!important;
+}
   .modal-dialog-filter{
     max-width: 100%!important;
   }
