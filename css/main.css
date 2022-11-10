@@ -36,6 +36,30 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .faq_body_height {
+    min-height: 286px!important;
+}
+  .accordion-main-faq svg {
+    right: 16px!important;
+    top: 11px!important;
+}
+  
+  .accordion-item-FAQ {
+    padding: 16px 16px!important;
+}
+  .accordion-body-FAQ {
+    padding-left: 16px!important;
+    padding-right: 16px!important;
+}
+  .FAQ_item {
+    width: 86%;
+  }
+  .svedeniya_container_faq {
+    gap: 0!important;
+  }
+  .svedeniya_container_faq .second_column {
+    margin-top: auto!important;
+}
   .cab_item_link_no_cab {
 color: #9BA7B0;
   }
@@ -220,6 +244,9 @@ header .first_panel {
 }
 
 @media screen and (max-width: 768px) {
+  .faq_body_height{
+
+  }
   .file_card_list {
     grid-template-columns: repeat(1, 1fr)!important;
 }
@@ -945,6 +972,10 @@ width: 100%;
 .cost_container div {
   width: 50%;
 }
+.faq_body_height{
+  position: relative; width:100%; min-height: 562px;
+ }
+
 /* //EVENTS/////////////////////////////////////// */
 
 
