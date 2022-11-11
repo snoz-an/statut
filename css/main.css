@@ -244,6 +244,40 @@ header .first_panel {
 }
 
 @media screen and (max-width: 768px) {
+  .ur_cont_item {
+    font-size: 14px!important;
+  }
+  .cab_event_my_ul-3-list li {
+    padding: 16px!important;
+}
+  .group_member_list {
+    grid-template-columns: repeat(1, 1fr)!important;
+}
+  .group_list .arrow {
+    right: 20px!important;
+    top: auto!important;
+    bottom: 10px!important;
+}
+  .group_list svg {
+    margin-bottom: 14px;
+  }
+  .group_list_flex{
+    align-items: flex-start!important;
+    flex-direction: column;
+  }
+  .group_list li {
+    grid-template-columns: repeat(1, 1fr)!important;
+}
+  .events_list_pers_cab_li .justify-content-between{
+    flex-direction: column;
+  }
+  .events_list_pers_cab_li img{
+    flex-direction: column;
+    margin-top: 16px;
+  }
+  .inputs_container_personal_area {
+    grid-template-columns: repeat(1, 1fr)!important;
+}
   .cab_event_my_ul-3-list {
     grid-template-columns: repeat(1, 1fr)!important;
 }
@@ -412,7 +446,9 @@ width: fit-content;
 .pagination {
   white-space: nowrap;
 }
-
+.group_list_flex{
+  align-items: center;
+}
 .footer_menu_2{
   width: 50%;
 }
