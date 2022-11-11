@@ -76,15 +76,7 @@ $('#slider-order').slick({
   arrow: false,
   prevArrow: $('.slider-order-prev'),
   nextArrow: $('.slider-order-next'),
-  responsive: [
-      
-      {
-        breakpoint: 573,
-        settings: {
-          slidesToShow: 2,
-        }
-      }
-  ]
+  
 });
 
 
