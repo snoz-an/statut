@@ -155,6 +155,17 @@ header .first_panel {
 }
 
 @media screen and (max-width: 992px) {
+  .contacts_grid_2 {
+    grid-template-columns: repeat(1, 1fr)!important;
+    gap: 20px!important;
+}
+  .map {
+    margin: 16px 0 20px!important;
+}
+  .contacts_grid_1 {
+    grid-template-columns: repeat(1, 1fr)!important;
+    gap: 16px!important;
+}
   .order_card {
     margin-bottom: 40px!important;
 }
@@ -279,6 +290,9 @@ header .first_panel {
 }
 
 @media screen and (max-width: 768px) {
+  .contacts_grid_2 .contacts_grid_2_li {
+    padding: 16px!important;
+}
   .ur_cont_item {
     font-size: 14px!important;
   }
@@ -479,6 +493,17 @@ width: fit-content;
     padding: 16px!important;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .container_error {
+    min-height: 220px!important;
+    margin-top: 0!important;
+}
+  .contacts_grid_3 {
+    grid-template-columns: repeat(1, 1fr)!important;
+    gap: 2px!important;
+  }
+  }
 .pagination {
   white-space: nowrap;
 }
@@ -508,15 +533,20 @@ a:hover{
 }
 html{
     color: #000000;
+    font-family: 'Futura New'!important;
 }
 body{
   margin-top: 150px;
+  font-family: 'Futura New'!important;
 }
 .img_container_mob {
   display: none;
 }
 .order_card_mob{
   display: none;
+}
+.flex_wrap{
+  flex-wrap: wrap;
 }
 #modal_cab {
   padding: 0!important;
@@ -580,6 +610,10 @@ line-height: 19px;
 }
 #events_list_slider .cost_container {
   white-space: nowrap;
+}
+.container_error{
+  min-height: 500px;
+  margin-top: 188px;
 }
 .Primary1 {
   background: #BEE6ED;
