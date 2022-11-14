@@ -1,8 +1,6 @@
 $( document ).ready(function() {
-    var order_card_height = $('#order_card').height()
-
-
-    $('.left_m_t').css('margin-top', '-'+order_card_height+'px');
+    // var order_card_height = $('#order_card').height()
+    // $('.left_m_t').css('margin-top', '-'+order_card_height+'px');
     
     $('.cab_item_link_mob').click(function(){
         setTimeout(function(){

@@ -13,16 +13,16 @@
 
 }
 @media screen and (max-width: 1445px) {
-  .second_column_order_lust{
+  /* .second_column_order_lust{
     width: 70%!important;
-  }
+  } */
 }
 
 @media screen and (max-width: 1440px) {
   
-  .second_column_order_lust{
+  /* .second_column_order_lust{
     width: 63%!important;
-  }
+  } */
   .order_card{
     /* width: 26%!important; */
   }
@@ -155,6 +155,9 @@ header .first_panel {
 }
 
 @media screen and (max-width: 992px) {
+  .left_m_t_last{
+    width: 100%!important;
+  }
   .contacts_grid_2 {
     grid-template-columns: repeat(1, 1fr)!important;
     gap: 20px!important;
@@ -1817,7 +1820,7 @@ align-items: center;
   padding: 24px;
   background: #F1F5F8;
   /* width: 24%; */
-  width: 36%;
+  width: 100%;
 
   margin-bottom: 107px;
 
@@ -1838,8 +1841,7 @@ align-items: center;
   border: 1px solid #E1E5E9;
   border-radius: 16px;
   /* width: 68%; */
-  width: 76%;
-
+  width: 100%;
   margin-bottom: 16px;
   position: relative;
 }
@@ -1860,7 +1862,8 @@ align-items: center;
 }
 
 .order_item{
-  width: 82%;
+  /* width: 82%; */
+  width: 97%;
 }
 .order_item .close{
       position: absolute;
@@ -1934,9 +1937,14 @@ width: 100%;
 }
 
 .second_column_order_lust{
-  width: 60%;
+  width: 96%;
 }
-
+.left_m_t_last{
+  width: 70%;
+}
+.order_card_last{
+  width: 30%;
+}
 .slider-order .card_order{
   padding: 32px;
   border: 1px solid #E1E5E9;
