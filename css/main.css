@@ -264,7 +264,7 @@ header .first_panel {
     margin-top: 20px;
 }
   .my_card {
-    min-height: 460px!important;
+    min-height: 420px!important;
     display: flex!important;
     flex-direction: column;
     justify-content: space-between;
@@ -539,8 +539,9 @@ html{
     font-family: 'Futura New'!important;
 }
 body{
-  margin-top: 150px;
+  margin-top: 134px;
   font-family: 'Futura New'!important;
+  font-weight: 400;
 }
 .img_container_mob {
   display: none;
@@ -577,9 +578,10 @@ line-height: 19px;
   border: 1px solid #BEE6ED;
 }
 .my_input::placeholder{
-  color: #D6DCE1;
+  color: #9BA7B0;
   font-size: 16px;
 line-height: 19px;
+font-weight: 300;
 }
 .color_D6DCE1{
   color: #D6DCE1
@@ -605,8 +607,11 @@ line-height: 19px;
 .color_grey_B5{
   color: #B5B5B5
 }
+.color_grey_3A{
+  color: #32373A
+}
 .page_nav{
-  margin-bottom: 64px;
+  margin-bottom: 32px;
 }
 .w-180{
   width: 180px;
@@ -706,7 +711,7 @@ transition: .3s;
   width: 180px;
 }
 .my_96_pt{
-  padding-top: 96px;
+  padding-top: 72px;
 }
 
 /* modals */
@@ -940,7 +945,7 @@ footer .second_column {
 
 .my_card{
   position: relative;
-  min-height: 540px;
+  min-height: 420px;
   border-radius: 16px;
   overflow: hidden;
   margin: 0 27px;
@@ -1092,10 +1097,11 @@ justify-content: space-between;
 }
 
 .cat_container .cat_item{
-  background: #F1F5F8;
+  background: #E2EAF0;
 border-radius: 24px;
 padding: 4px 12px;
-color: #73797E;
+color: #32373A;
+width: fit-content;
 }
 
 .events_line{
