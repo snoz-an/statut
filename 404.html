@@ -39,65 +39,105 @@
 
 </head>
 
-<div class="header_container">
-    <div class="fixed">
-        <div class="container" style="position: relative;">
-            <header>
-                <div class="first_panel">
-                    <ul class="header_socials d-flex">
-                        <li><a href="#"><img src="./images/vk.svg" alt=""></a></li>
-                        <li><a href="#"><img src="./images/youtube.svg" alt=""></a></li>
-                        <li><a href="#"><img src="./images/telegram.svg" alt=""></a></li>
-                        <li class="color_grey_BO"><a href="#" class="fs-md-14">Сведения об образовательной организации</a></li>
-                    </ul>
 
-                    <ul class="header_socials_2 d-flex">
-                        <li class="mr-4 color_grey_BO"><a href="#" class="fs-md-14">Подписаться на рассылку</a></li>
-                        <li class="mr-4"><a class="color_grey_7E fs-md-14 fw-500" href="tel: +7 (499) 750-72-72">+7 (499) 750-72-72</a></li>
-                        <li><a class="color_grey_7E fs-md-14 fw-500" href="mail: post@statut.ru">post@statut.ru</a></li>
-                    </ul>
+<div class="full_page full_page_error">
 
-                    <div class="first_line"></div>
-                </div>
-
-                <div class="second_panel">
-                    <ul class="logo_list d-flex align-items-center">
-                        <li class="mr-5"><img src="./images/logo.svg" alt=""></li>
-                        <li class="mr-32 none"><a href="#" class="fw-500">Мероприятия</a></li>
-                        <li class="mr-32 none"><a href="#" class="fw-500">Видеокурсы</a></li>
-                        <li class="mr-32 none"><a href="#" class="fw-500">Лекторы</a></li>
-                        <li class="mr-32 none"><a href="#" class="fw-500">Контакты</a></li>
-                        <li class="none"><a href="#" class="fw-500">FAQ</a></li>
-                    </ul>
-                    <ul class="logo_list_2 d-flex align-items-end">
-                        <li class="d-flex align-items-center">
-                            <div class="bag">
-                                <img src="./images/bag.svg" alt="">
-                                <div class="items_counter d-flex align-items-center">1</div>
+    <div class="header_container">
+        <div class="fixed">
+            <div class="container" style="position: relative;">
+                <header>
+                    <div class="first_panel">
+                        <ul class="header_socials d-flex">
+                            <li><a href="#"><img src="./images/vk.svg" alt=""></a></li>
+                            <li><a href="#"><img src="./images/youtube.svg" alt=""></a></li>
+                            <li><a href="#"><img src="./images/telegram.svg" alt=""></a></li>
+                            <li class="color_grey_BO"><a href="#" class="fs-md-14">Сведения об образовательной организации</a></li>
+                        </ul>
+    
+                        <ul class="header_socials_2 d-flex">
+                            <li class="mr-4 color_grey_BO"><a href="#" class="fs-md-14">Подписаться на рассылку</a></li>
+                            <li class="mr-4"><a class="color_grey_7E fs-md-14 fw-500" href="tel: +7 (499) 750-72-72">+7 (499) 750-72-72</a></li>
+                            <li><a class="color_grey_7E fs-md-14 fw-500" href="mail: post@statut.ru">post@statut.ru</a></li>
+                        </ul>
+    
+                        <div class="first_line"></div>
+                    </div>
+    
+                    <div class="second_panel">
+                        <ul class="logo_list d-flex">
+                            <li class="mr-5"><img src="./images/logo.svg" alt=""></li>
+                            <div class="d-flex mt-2">
+                            <li class="mr-32 none"><a href="#" class="fw-500">Мероприятия</a></li>
+                            <li class="mr-32 none"><a href="#" class="fw-500">Видеокурсы</a></li>
+                            <li class="mr-32 none"><a href="#" class="fw-500">Лекторы</a></li>
+                            <li class="mr-32 none"><a href="#" class="fw-500">Контакты</a></li>
+                            <li class="none"><a href="#" class="fw-500">FAQ</a></li>
                             </div>
-                            <a href="#" class="fs-md-16 fw-500 ml-3 header_item_none">Мои заказы</a>
-                        </li>
-                        <li class="d-flex align-items-center">
-                            <img src="./images/cab.svg" alt="">
-                            <a href="#" class="fs-md-16 fw-500 ml-3 header_item_none">Личный кабинет</a>
-                        </li>
-                        <li class="d-none align-items-center burger noselect" data-toggle="modal" data-target="#modal_burger">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 4H23" stroke="#9BA7B0" stroke-width="2" stroke-linecap="round"/>
-                                <path d="M1 12H23" stroke="#9BA7B0" stroke-width="2" stroke-linecap="round"/>
-                                <path d="M1 20H23" stroke="#9BA7B0" stroke-width="2" stroke-linecap="round"/>
-                            </svg>
-                        </li>
-                    </ul>
-                </div>
-
-            </header>
-
+                        </ul>
+                        <ul class="logo_list_2 d-flex align-items-end">
+                            <li class="d-flex align-items-center">
+                                <div class="bag">
+                                    <img src="./images/bag.svg" alt="">
+                                    <div class="items_counter d-flex align-items-center">1</div>
+                                </div>
+                                <a href="#" class="fs-md-16 fw-500 ml-3 header_item_none">Мои заказы</a>
+                            </li>
+                            <li class="d-flex align-items-center position_relative header_cab_btn">
+                                <img src="./images/cab.svg" alt="">
+                                <div class="fs-md-16 fw-500 ml-3 header_item_none">Личный кабинет</div>
+                                <ul class="cab_header_menu cab_header_menu_none noselect">
+                                   
+                                    <li>
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15.2502 9.00008C15.2502 8.80842 15.2419 8.62508 15.2252 8.43341L16.7752 7.25841C17.1085 7.00841 17.2002 6.54175 16.9919 6.17508L15.4335 3.48341C15.2252 3.11675 14.7752 2.96675 14.3919 3.13341L12.6002 3.89175C12.2919 3.67508 11.9669 3.48341 11.6252 3.32508L11.3835 1.40008C11.3335 0.983415 10.9752 0.666748 10.5585 0.666748H7.45021C7.02521 0.666748 6.66688 0.983415 6.61688 1.40008L6.37521 3.32508C6.03354 3.48341 5.70854 3.67508 5.40021 3.89175L3.60854 3.13341C3.22521 2.96675 2.77521 3.11675 2.56688 3.48341L1.00854 6.18341C0.800209 6.55008 0.891876 7.00842 1.22521 7.26675L2.77521 8.44175C2.75854 8.62508 2.75021 8.80842 2.75021 9.00008C2.75021 9.19175 2.75854 9.37508 2.77521 9.56675L1.22521 10.7417C0.891876 10.9917 0.800209 11.4584 1.00854 11.8251L2.56688 14.5167C2.77521 14.8834 3.22521 15.0334 3.60854 14.8667L5.40021 14.1084C5.70854 14.3251 6.03354 14.5167 6.37521 14.6751L6.61688 16.6001C6.66688 17.0168 7.02521 17.3334 7.44188 17.3334H10.5502C10.9669 17.3334 11.3252 17.0168 11.3752 16.6001L11.6169 14.6751C11.9585 14.5167 12.2835 14.3251 12.5919 14.1084L14.3835 14.8667C14.7669 15.0334 15.2169 14.8834 15.4252 14.5167L16.9835 11.8251C17.1919 11.4584 17.1002 11.0001 16.7669 10.7417L15.2169 9.56675C15.2419 9.37508 15.2502 9.19175 15.2502 9.00008ZM9.03354 11.9167C7.42521 11.9167 6.11688 10.6084 6.11688 9.00008C6.11688 7.39175 7.42521 6.08342 9.03354 6.08342C10.6419 6.08342 11.9502 7.39175 11.9502 9.00008C11.9502 10.6084 10.6419 11.9167 9.03354 11.9167Z" fill="#9BA7B0"/>
+                                        </svg>
+                                        Настройки
+                                    </li>
+                                    <li>
+                                        <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M13.333 5.16675C14.7163 5.16675 15.8247 4.05008 15.8247 2.66675C15.8247 1.28341 14.7163 0.166748 13.333 0.166748C11.9497 0.166748 10.833 1.28341 10.833 2.66675C10.833 4.05008 11.9497 5.16675 13.333 5.16675ZM6.66634 5.16675C8.04967 5.16675 9.15801 4.05008 9.15801 2.66675C9.15801 1.28341 8.04967 0.166748 6.66634 0.166748C5.28301 0.166748 4.16634 1.28341 4.16634 2.66675C4.16634 4.05008 5.28301 5.16675 6.66634 5.16675ZM6.66634 6.83341C4.72467 6.83341 0.833008 7.80841 0.833008 9.75008V11.0001C0.833008 11.4584 1.20801 11.8334 1.66634 11.8334H11.6663C12.1247 11.8334 12.4997 11.4584 12.4997 11.0001V9.75008C12.4997 7.80841 8.60801 6.83341 6.66634 6.83341ZM13.333 6.83341C13.0913 6.83341 12.8163 6.85008 12.5247 6.87508C12.5413 6.88341 12.5497 6.90008 12.558 6.90841C13.508 7.60008 14.1663 8.52508 14.1663 9.75008V11.0001C14.1663 11.2917 14.108 11.5751 14.0163 11.8334H18.333C18.7913 11.8334 19.1663 11.4584 19.1663 11.0001V9.75008C19.1663 7.80841 15.2747 6.83341 13.333 6.83341Z" fill="#9BA7B0"/>
+                                        </svg>
+                                        Группа
+                                    </li>
+                                    <li>
+                                        <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.3333 9.83342H8.83333C8.375 9.83342 8 10.2084 8 10.6667V13.1667C8 13.6251 8.375 14.0001 8.83333 14.0001H11.3333C11.7917 14.0001 12.1667 13.6251 12.1667 13.1667V10.6667C12.1667 10.2084 11.7917 9.83342 11.3333 9.83342ZM11.3333 1.50008V2.33341H4.66667V1.50008C4.66667 1.04175 4.29167 0.666748 3.83333 0.666748C3.375 0.666748 3 1.04175 3 1.50008V2.33341H2.16667C1.24167 2.33341 0.508333 3.08341 0.508333 4.00008L0.5 15.6667C0.5 16.5834 1.24167 17.3334 2.16667 17.3334H13.8333C14.75 17.3334 15.5 16.5834 15.5 15.6667V4.00008C15.5 3.08341 14.75 2.33341 13.8333 2.33341H13V1.50008C13 1.04175 12.625 0.666748 12.1667 0.666748C11.7083 0.666748 11.3333 1.04175 11.3333 1.50008ZM13 15.6667H3C2.54167 15.6667 2.16667 15.2917 2.16667 14.8334V6.50008H13.8333V14.8334C13.8333 15.2917 13.4583 15.6667 13 15.6667Z" fill="#9BA7B0"/>
+                                        </svg>
+                                            
+                                        Мероприятия
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.50033 4.00008C1.04199 4.00008 0.666992 4.37508 0.666992 4.83342V15.6667C0.666992 16.5834 1.41699 17.3334 2.33366 17.3334H13.167C13.6253 17.3334 14.0003 16.9584 14.0003 16.5001C14.0003 16.0417 13.6253 15.6667 13.167 15.6667H3.16699C2.70866 15.6667 2.33366 15.2917 2.33366 14.8334V4.83342C2.33366 4.37508 1.95866 4.00008 1.50033 4.00008ZM15.667 0.666748H5.66699C4.75033 0.666748 4.00033 1.41675 4.00033 2.33341V12.3334C4.00033 13.2501 4.75033 14.0001 5.66699 14.0001H15.667C16.5837 14.0001 17.3337 13.2501 17.3337 12.3334V2.33341C17.3337 1.41675 16.5837 0.666748 15.667 0.666748ZM9.00033 11.0834V3.58341L13.5587 7.00008C13.7837 7.16675 13.7837 7.50008 13.5587 7.66675L9.00033 11.0834Z" fill="#9BA7B0"/>
+                                        </svg>
+                                        Видеокурсы
+                                    </li>
+                                    <li>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M13.8333 2.16667H8.83333C8.375 2.16667 8 1.79167 8 1.33333C8 0.875 8.375 0.5 8.83333 0.5H13.8333C14.75 0.5 15.5 1.25 15.5 2.16667V13.8333C15.5 14.75 14.75 15.5 13.8333 15.5H8.83333C8.375 15.5 8 15.125 8 14.6667C8 14.2083 8.375 13.8333 8.83333 13.8333H13.8333V2.16667Z" fill="#9BA7B0"/>
+                                            <path d="M0.791667 7.70836L3.11667 5.38336C3.38333 5.11669 3.83333 5.30003 3.83333 5.67503V7.16669H9.66667C10.125 7.16669 10.5 7.54169 10.5 8.00003C10.5 8.45836 10.125 8.83336 9.66667 8.83336H3.83333V10.325C3.83333 10.7 3.38333 10.8834 3.125 10.6167L0.8 8.29169C0.633333 8.13336 0.633333 7.86669 0.791667 7.70836Z" fill="#9BA7B0"/>
+                                        </svg>
+                                        Выйти
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="d-none align-items-center burger noselect" data-toggle="modal" data-target="#modal_burger">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 4H23" stroke="#9BA7B0" stroke-width="2" stroke-linecap="round"/>
+                                    <path d="M1 12H23" stroke="#9BA7B0" stroke-width="2" stroke-linecap="round"/>
+                                    <path d="M1 20H23" stroke="#9BA7B0" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </li>
+                        </ul>
+                    </div>
+    
+                </header>
+    
+            </div>
+    
+    
         </div>
-
-
     </div>
-</div>
 
 <!-- Модальное окно -->
 <div class="modal fade" id="modal_burger" tabindex="-1" role="dialog" aria-labelledby="costumModalLabel" aria-hidden="true">
@@ -166,7 +206,7 @@
 
 
 
- <body>
+ <body class="content">
     <div class="container container_error">
         <div class="fs-md-56 fs-32 mb-2 fw-500">Ошибка 404 :(</div>
         <div class="fs-md-18 fs-16 color_grey_BO mb-md-32 mb-3">Страница не найдена или не существует, вернитесь на главную для продолжения</div>
@@ -213,10 +253,11 @@
                 <div class="mr-5 color_grey_50 mb-lg-0 mb-2">2022 © «Статут»</div>
                 <a href="#" class="color_grey_B5 mb-lg-0 mb-2" style="text-decoration: underline;">Политика конфиденциальности</a>
             </div>
-            <div class="color_grey_50 mb-lg-0 mb-2">Сделано в Делаем</div>
+            <a href="#" class="color_grey_50 mb-lg-0 mb-2">Сделано в Делаем</a>
         </div>
     </footer>
     
+</div>
 
 
 

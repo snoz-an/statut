@@ -1,4 +1,27 @@
 $(document).ready(function(){
+  $('#alphavit_slider').slick({
+    infinite: true,
+    dots: false,
+    slidesToShow: 32,
+
+    slidesToScroll: 5,
+    // dotsClass: 'slick-dots slick-dots-partners',
+    arrow: false,
+    // centerMode: true,
+    prevArrow: $('.slider-alphavit-prev'),
+    nextArrow: $('.slider-alphavit-next'),
+    responsive: [
+      
+        
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 16,
+          }
+        }
+    ]
+  });
+
   $('#slider-main-videocurces').slick({
     infinite: true,
     dots: false,

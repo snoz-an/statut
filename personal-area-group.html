@@ -39,6 +39,11 @@
 
 </head>
 
+
+<div class="full_page">
+
+    <div>
+
 <div class="header_container">
     <div class="fixed">
         <div class="container" style="position: relative;">
@@ -77,7 +82,11 @@
                             </div>
                             <a href="#" class="fs-md-16 fw-500 ml-3 header_item_none">Мои заказы</a>
                         </li>
-                        <li class="d-flex align-items-center" data-toggle="modal" data-target="#modal_cab" >
+                        <li class="d-md-flex d-none align-items-center" >
+                            <img src="./images/cab.svg" alt="">
+                            <a href="#" class="fs-md-16 fw-500 ml-3 header_item_none">Личный кабинет</a>
+                        </li>
+                        <li class="d-md-none d-flex align-items-center" data-toggle="modal" data-target="#modal_cab" >
                             <img src="./images/cab.svg" alt="">
                             <a href="#" class="fs-md-16 fw-500 ml-3 header_item_none">Личный кабинет</a>
                         </li>
@@ -98,6 +107,7 @@
 
     </div>
 </div>
+
 
 <!-- Модальное окно -->
 <div class="modal fade" id="modal_burger" tabindex="-1" role="dialog" aria-labelledby="costumModalLabel" aria-hidden="true">
@@ -252,7 +262,7 @@
 
 
 
-    <body>
+    <body class="content">
 
         <div style="position: relative; width:100%; min-height: 562px;">
 
@@ -464,7 +474,7 @@
                             <svg class="mr-2" width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M7 1.5L0.999999 7.5M0.999999 7.5L7 13.5M0.999999 7.5L15 7.5" stroke="#9BA7B0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
-                            <div class="fs-md-16 fs-14 color_grey_BO">ВСЕ ГРУППЫ</div>
+                            <div class="fs-md-16 fs-14 color_grey_BO">ГРУППЫ</div>
                         </a>
                         <div class="mb-3 mt-3 fs-md-48 fs-24 fw-500">ООО “Интертех”</div>
                         <div class="d-md-flex d-block mb-32">
@@ -475,7 +485,7 @@
                             <ul class="cab_event_my_ul-3-list">
                                 <li>
                                     <div class="fs-md-16 fs-14 mb-1 fw-500">Авакян Елена Георгиевна</div>
-                                    <div class="color_grey_BO fs-md-14 fs-12 mb-12">Кол-во участников</div>
+                                    <div class="color_grey_BO fs-md-14 fs-12 mb-12">Менеджер проектов</div>
                                     <div class="d-flex align-items-center mb-2">
                                         <svg class="mr-2" width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M10.82 8.67253L9.12669 8.47919C8.72003 8.43253 8.32003 8.57253 8.03336 8.85919L6.80669 10.0859C4.92003 9.12586 3.37336 7.58586 2.41336 5.69253L3.64669 4.45919C3.93336 4.17253 4.07336 3.77253 4.02669 3.36586L3.83336 1.68586C3.75336 1.01253 3.18669 0.505859 2.50669 0.505859H1.35336C0.600027 0.505859 -0.0266396 1.13253 0.0200271 1.88586C0.37336 7.57919 4.92669 12.1259 10.6134 12.4792C11.3667 12.5259 11.9934 11.8992 11.9934 11.1459V9.99253C12 9.31919 11.4934 8.75253 10.82 8.67253Z" fill="#9BA7B0"/>
@@ -499,7 +509,7 @@
                                 </li>
                                 <li>
                                     <div class="fs-md-16 fs-14 mb-1 fw-500">Авакян Елена Георгиевна</div>
-                                    <div class="color_grey_BO fs-md-14 fs-12 mb-12">Кол-во участников</div>
+                                    <div class="color_grey_BO fs-md-14 fs-12 mb-12">Инструктор</div>
                                     <div class="d-flex align-items-center mb-2">
                                         <svg class="mr-2" width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M10.82 8.67253L9.12669 8.47919C8.72003 8.43253 8.32003 8.57253 8.03336 8.85919L6.80669 10.0859C4.92003 9.12586 3.37336 7.58586 2.41336 5.69253L3.64669 4.45919C3.93336 4.17253 4.07336 3.77253 4.02669 3.36586L3.83336 1.68586C3.75336 1.01253 3.18669 0.505859 2.50669 0.505859H1.35336C0.600027 0.505859 -0.0266396 1.13253 0.0200271 1.88586C0.37336 7.57919 4.92669 12.1259 10.6134 12.4792C11.3667 12.5259 11.9934 11.8992 11.9934 11.1459V9.99253C12 9.31919 11.4934 8.75253 10.82 8.67253Z" fill="#9BA7B0"/>
@@ -551,25 +561,25 @@
                             </svg>
                             <div class="fs-md-16 fs-14 color_grey_BO">ГРУППА</div>
                         </a>
-                        <div class="mb-32 mt-3 fs-md-48 fs-24 fw-500">Участник</div>
+                        <div class="mb-32 mt-3 fs-md-48 fs-24 fw-500">Добавить участника</div>
 
 
                         <ul class="group_member_list">
                             <li>
                                 <div class="fs-md-14 fs-12 mb-1 color_grey_7E">ФИО *</div>
-                                <input type="text" class="w-100 form-input my_input input-container-name" placeholder="ФИО">
+                                <input type="text" class="w-100 form-input my_input input-container-name" placeholder="Введите ФИО">
                             </li>
                             <li>
-                                <div class="fs-md-14 fs-12 mb-1 color_grey_7E">ФИО *</div>
-                                <input type="text" class="w-100 form-input my_input input-container-name" placeholder="ФИО">
+                                <div class="fs-md-14 fs-12 mb-1 color_grey_7E">Должность</div>
+                                <input type="text" class="w-100 form-input my_input input-container-name" placeholder="Введите должность">
                             </li>
                             <li>
-                                <div class="fs-md-14 fs-12 mb-1 color_grey_7E">ФИО *</div>
-                                <input type="text" class="w-100 form-input my_input input-container-name" placeholder="ФИО">
+                                <div class="fs-md-14 fs-12 mb-1 color_grey_7E">Телефон *</div>
+                                <input type="text" class="w-100 form-input my_input input-container-name" placeholder="Введите телефон">
                             </li>
                             <li>
-                                <div class="fs-md-14 fs-12 mb-1 color_grey_7E">ФИО *</div>
-                                <input type="text" class="w-100 form-input my_input input-container-name" placeholder="ФИО">
+                                <div class="fs-md-14 fs-12 mb-1 color_grey_7E">E-mail *</div>
+                                <input type="text" class="w-100 form-input my_input input-container-name" placeholder="Введите e-mail">
                             </li>
                         </ul>
 
@@ -686,6 +696,7 @@
     </body>
 
 
+    </div>
 
 
 
@@ -729,13 +740,13 @@
                 <div class="mr-5 color_grey_50 mb-lg-0 mb-2">2022 © «Статут»</div>
                 <a href="#" class="color_grey_B5 mb-lg-0 mb-2" style="text-decoration: underline;">Политика конфиденциальности</a>
             </div>
-            <div class="color_grey_50 mb-lg-0 mb-2">Сделано в Делаем</div>
+            <a href="#" class="color_grey_50 mb-lg-0 mb-2">Сделано в Делаем</a>
         </div>
     </footer>
     
     
 
-
+</div>
 
 
 </html>
