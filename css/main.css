@@ -1469,6 +1469,7 @@ justify-content: space-between;
 .videocources_list_img_container{
   position: relative;
   min-height: 240px;
+  padding-bottom: 32px;
 }
 .videocources_list_img_container .img{
   position: absolute;
@@ -1502,6 +1503,7 @@ justify-content: space-between;
   padding-left: 32px;
   padding-top: 12px;
   z-index: 2;
+  /* padding-bottom: 32px; */
 }
 .videocources_list_img_container .fade{
 background: black;
